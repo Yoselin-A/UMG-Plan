@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+
+# Respaldos y datos reales institucionales
+*.bak
+*.mdf
+*.ldf
+.env.*
+!*.example
+UMGPlan-respaldo-*.json

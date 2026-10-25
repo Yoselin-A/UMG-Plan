@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {makeSeed} from '../src/lib/seed.js';
+import {validateLocalRelations} from '../src/lib/relationalModel.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const db=makeSeed();
+const errors=validateLocalRelations(db);if(errors.length)throw Error(`Relaciones inválidas: ${errors.join('; ')}`);
+fs.mkdirSync(path.join(root,'datos'),{recursive:true});
+fs.writeFileSync(path.join(root,'datos','UMGPlan_Datos_Prueba_Para_Importar.json'),JSON.stringify(db,null,2),'utf8');
+const arrays=Object.fromEntries(Object.entries(db).filter(([,v])=>Array.isArray(v)).map(([k,v])=>[k,{total:v.length,demostracion:v.filter(x=>x.source==='demostracion').length,historico:v.filter(x=>x.source==='documento-base-2025').length}]));
+const manifest={titulo:'UMG Plan - inventario del conjunto inicial',fecha:'2026-10-24',esquema_version:db.schemaVersion,uso:'SOLO PRUEBAS / desarrollo local - NO DATOS OFICIALES DE SEDES NI CARRERAS',procedencia:['Universidad Mariano Gálvez y sedes Villa Nueva y Portales según documentos del proyecto','Cursos y profesores históricos del formato Portales 2025','Registros restantes creados para demostración y pruebas; requieren validación institucional'],colecciones:arrays};
+fs.writeFileSync(path.join(root,'datos','INVENTARIO_Y_PROCEDENCIA.json'),JSON.stringify(manifest,null,2),'utf8');
+console.log('Datos de prueba e inventario generados sin errores de relación.');
+console.log(Object.fromEntries(Object.entries(arrays).filter(([k])=>['centers','careers','studyPlans','periods','slots','courses','teachers'].includes(k)).map(([k,v])=>[k,v.total])));

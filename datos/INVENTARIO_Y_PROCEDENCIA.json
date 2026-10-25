@@ -1,0 +1,168 @@
+{
+  "titulo": "UMG Plan - inventario del conjunto inicial",
+  "fecha": "2026-10-24",
+  "esquema_version": 7,
+  "uso": "SOLO PRUEBAS / desarrollo local - NO DATOS OFICIALES DE SEDES NI CARRERAS",
+  "procedencia": [
+    "Universidad Mariano Gálvez y sedes Villa Nueva y Portales según documentos del proyecto",
+    "Cursos y profesores históricos del formato Portales 2025",
+    "Registros restantes creados para demostración y pruebas; requieren validación institucional"
+  ],
+  "colecciones": {
+    "users": {
+      "total": 10,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "teachers": {
+      "total": 54,
+      "demostracion": 26,
+      "historico": 28
+    },
+    "studyPlans": {
+      "total": 14,
+      "demostracion": 13,
+      "historico": 1
+    },
+    "cycles": {
+      "total": 10,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "periods": {
+      "total": 38,
+      "demostracion": 32,
+      "historico": 0
+    },
+    "rooms": {
+      "total": 20,
+      "demostracion": 10,
+      "historico": 0
+    },
+    "slots": {
+      "total": 111,
+      "demostracion": 76,
+      "historico": 0
+    },
+    "courses": {
+      "total": 156,
+      "demostracion": 131,
+      "historico": 25
+    },
+    "enrollments": {
+      "total": 38,
+      "demostracion": 36,
+      "historico": 0
+    },
+    "plannings": {
+      "total": 6,
+      "demostracion": 5,
+      "historico": 0
+    },
+    "sections": {
+      "total": 7,
+      "demostracion": 5,
+      "historico": 0
+    },
+    "assignments": {
+      "total": 13,
+      "demostracion": 5,
+      "historico": 0
+    },
+    "reviews": {
+      "total": 0,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "reports": {
+      "total": 0,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "authorizations": {
+      "total": 0,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "messages": {
+      "total": 1,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "notifications": {
+      "total": 1,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "audit": {
+      "total": 1,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "institutions": {
+      "total": 1,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "centers": {
+      "total": 6,
+      "demostracion": 5,
+      "historico": 1
+    },
+    "careers": {
+      "total": 14,
+      "demostracion": 13,
+      "historico": 1
+    },
+    "modalities": {
+      "total": 6,
+      "demostracion": 4,
+      "historico": 0
+    },
+    "authorityTypes": {
+      "total": 4,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "authorities": {
+      "total": 4,
+      "demostracion": 4,
+      "historico": 0
+    },
+    "planningAuthorities": {
+      "total": 4,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "coordinationSlots": {
+      "total": 1,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "curriculum": {
+      "total": 156,
+      "demostracion": 131,
+      "historico": 25
+    },
+    "costHistory": {
+      "total": 19,
+      "demostracion": 15,
+      "historico": 4
+    },
+    "availability": {
+      "total": 3,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "customRoles": {
+      "total": 0,
+      "demostracion": 0,
+      "historico": 0
+    },
+    "passwordRequests": {
+      "total": 0,
+      "demostracion": 0,
+      "historico": 0
+    }
+  }
+}

@@ -1,0 +1,6553 @@
+{
+  "schemaVersion": 7,
+  "users": [
+    {
+      "id": "u-admin",
+      "username": "admin",
+      "name": "Administrador UMG Plan",
+      "role": "admin",
+      "teacherId": "",
+      "email": "admin@miumg.edu.gt",
+      "active": true
+    },
+    {
+      "id": "u-coord",
+      "username": "coordinador",
+      "name": "Coordinador de Carrera",
+      "role": "coordinator",
+      "teacherId": "",
+      "email": "coordinador@miumg.edu.gt",
+      "active": true
+    },
+    {
+      "id": "u-doc1",
+      "username": "docente1",
+      "name": "Carlos Mendoza",
+      "role": "teacher",
+      "teacherId": "t-1",
+      "email": "docente1@miumg.edu.gt",
+      "active": true
+    },
+    {
+      "id": "u-doc2",
+      "username": "docente2",
+      "name": "María López",
+      "role": "teacher",
+      "teacherId": "t-2",
+      "email": "docente2@miumg.edu.gt",
+      "active": true
+    },
+    {
+      "id": "u-doc3",
+      "username": "docente3",
+      "name": "Andrea Martínez",
+      "role": "teacher",
+      "teacherId": "t-3",
+      "email": "docente3@miumg.edu.gt",
+      "active": true
+    },
+    {
+      "id": "u-doc4",
+      "username": "docente4",
+      "name": "Luis González",
+      "role": "teacher",
+      "teacherId": "t-4",
+      "email": "docente4@miumg.edu.gt",
+      "active": true
+    },
+    {
+      "id": "u-doc5",
+      "username": "docente5",
+      "name": "Rosa Herrera",
+      "role": "teacher",
+      "teacherId": "t-5",
+      "email": "docente5@miumg.edu.gt",
+      "active": true
+    },
+    {
+      "id": "u-doc6",
+      "username": "docente6",
+      "name": "Pedro Ramírez",
+      "role": "teacher",
+      "teacherId": "t-6",
+      "email": "docente6@miumg.edu.gt",
+      "active": true
+    },
+    {
+      "id": "u-doc7",
+      "username": "docente7",
+      "name": "Claudia Méndez",
+      "role": "teacher",
+      "teacherId": "t-7",
+      "email": "docente7@miumg.edu.gt",
+      "active": true
+    },
+    {
+      "id": "u-doc8",
+      "username": "docente8",
+      "name": "José Hernández",
+      "role": "teacher",
+      "teacherId": "t-8",
+      "email": "docente8@miumg.edu.gt",
+      "active": true
+    }
+  ],
+  "teachers": [
+    {
+      "id": "t-1",
+      "code": "CAT-001",
+      "name": "Carlos Mendoza",
+      "email": "cat-001@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Informática / Sistemas",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "t-2",
+      "code": "CAT-002",
+      "name": "María López",
+      "email": "cat-002@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Informática / Sistemas",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "t-3",
+      "code": "CAT-003",
+      "name": "Andrea Martínez",
+      "email": "cat-003@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Informática / Sistemas",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "t-4",
+      "code": "CAT-004",
+      "name": "Luis González",
+      "email": "cat-004@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Informática / Sistemas",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "t-5",
+      "code": "CAT-005",
+      "name": "Rosa Herrera",
+      "email": "cat-005@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Informática / Sistemas",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "t-6",
+      "code": "CAT-006",
+      "name": "Pedro Ramírez",
+      "email": "cat-006@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Informática / Sistemas",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "t-7",
+      "code": "CAT-007",
+      "name": "Claudia Méndez",
+      "email": "cat-007@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Informática / Sistemas",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "t-8",
+      "code": "CAT-008",
+      "name": "José Hernández",
+      "email": "cat-008@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Informática / Sistemas",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "th-2745",
+      "code": "2745",
+      "name": "Edgar Orlando Rodríguez Morales",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-10311",
+      "code": "10311",
+      "name": "Mario Alberto Hernández Alvarado",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-4676",
+      "code": "4676",
+      "name": "Mario René de León García",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-9318",
+      "code": "9318",
+      "name": "Diana Beatriz Ruiz Cifuentes",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-13978",
+      "code": "13978",
+      "name": "Fabio Humberto Sanabria Salazar",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-14482",
+      "code": "14482",
+      "name": "Byron Raúl Miranda Toledo",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-5035",
+      "code": "5035",
+      "name": "Roger Marcoantonio Navas Coronado",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-14848",
+      "code": "14848",
+      "name": "David Emanuel Marroquín Marroquín",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-7176",
+      "code": "7176",
+      "name": "Eladio Antonio Girón Hernández",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-11687",
+      "code": "11687",
+      "name": "Nancy Vanessa López Cifuentes",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-12621",
+      "code": "12621",
+      "name": "Nery Rubiny Paz Najarro",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-13728",
+      "code": "13728",
+      "name": "Walter Emilio Ramírez Córdova",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-3127",
+      "code": "3127",
+      "name": "Domingo Antonio Alvarado Bamaca",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-14367",
+      "code": "14367",
+      "name": "Carmen Lorena España Jurado",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-11006",
+      "code": "11006",
+      "name": "José Samuel Bulux Calderón",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-11018",
+      "code": "11018",
+      "name": "Axel Emmanuel Aguilar Carrillo",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-12659",
+      "code": "12659",
+      "name": "Dorian Soraya de León González",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-6647",
+      "code": "6647",
+      "name": "José Eduardo Milián Martínez",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-10919",
+      "code": "10919",
+      "name": "María Lourdes García Mateo",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-10084",
+      "code": "10084",
+      "name": "Jorge Mario Moya",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-9452",
+      "code": "9452",
+      "name": "Ernesto Rabindranath Azurdia",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-12487",
+      "code": "12487",
+      "name": "Marlon Lenin Girón Vielman",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-9695",
+      "code": "9695",
+      "name": "Aldo Ismael López Amaya",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-8561",
+      "code": "8561",
+      "name": "Kevin Roberto Hernández Tavico",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-16535",
+      "code": "16535",
+      "name": "Carlos José Martínez Bolaños",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-14558",
+      "code": "14558",
+      "name": "Gerald Alexander Espinales Molina",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-9619",
+      "code": "9619",
+      "name": "Iver Adolfo Vargas Villanueva",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "th-5093",
+      "code": "5093",
+      "name": "Byron René Prado Jui",
+      "email": "",
+      "phone": "",
+      "specialty": "Referencia histórica 2025",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "demo-prof-1",
+      "code": "DEMO-CAT-001",
+      "name": "Daniela Morales",
+      "email": "profesor.demo1@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Planificación académica (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-2",
+      "code": "DEMO-CAT-002",
+      "name": "Ricardo Fuentes",
+      "email": "profesor.demo2@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Administración (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-3",
+      "code": "DEMO-CAT-003",
+      "name": "Patricia Aguilar",
+      "email": "profesor.demo3@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Tecnología (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-4",
+      "code": "DEMO-CAT-004",
+      "name": "Gabriela Gómez",
+      "email": "profesor.demo4@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Ciencias sociales (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-5",
+      "code": "DEMO-CAT-005",
+      "name": "Andrea Cifuentes",
+      "email": "profesor.demo5@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Planificación académica (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-6",
+      "code": "DEMO-CAT-006",
+      "name": "Héctor Pérez",
+      "email": "profesor.demo6@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Administración (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-7",
+      "code": "DEMO-CAT-007",
+      "name": "Sandra Reyes",
+      "email": "profesor.demo7@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Tecnología (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-8",
+      "code": "DEMO-CAT-008",
+      "name": "Jorge Castillo",
+      "email": "profesor.demo8@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Ciencias sociales (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-9",
+      "code": "DEMO-CAT-009",
+      "name": "Verónica Hernández",
+      "email": "profesor.demo9@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Planificación académica (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-10",
+      "code": "DEMO-CAT-010",
+      "name": "Gabriel Escobar",
+      "email": "profesor.demo10@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Administración (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-11",
+      "code": "DEMO-CAT-011",
+      "name": "Carmen Álvarez",
+      "email": "profesor.demo11@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Tecnología (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-12",
+      "code": "DEMO-CAT-012",
+      "name": "Óscar García",
+      "email": "profesor.demo12@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Ciencias sociales (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-13",
+      "code": "DEMO-CAT-013",
+      "name": "María Fernanda Ruiz",
+      "email": "profesor.demo13@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Planificación académica (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-14",
+      "code": "DEMO-CAT-014",
+      "name": "Julio Méndez",
+      "email": "profesor.demo14@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Administración (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-15",
+      "code": "DEMO-CAT-015",
+      "name": "Marisol Gómez",
+      "email": "profesor.demo15@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Tecnología (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-16",
+      "code": "DEMO-CAT-016",
+      "name": "Fernando Castro",
+      "email": "profesor.demo16@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Ciencias sociales (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-17",
+      "code": "DEMO-CAT-017",
+      "name": "Natalia Mendoza",
+      "email": "profesor.demo17@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Planificación académica (prueba)",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-prof-18",
+      "code": "DEMO-CAT-018",
+      "name": "Diego Sánchez",
+      "email": "profesor.demo18@miumg.edu.gt",
+      "phone": "",
+      "specialty": "Administración (prueba)",
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "studyPlans": [
+    {
+      "id": "plan-sistemas",
+      "code": "ISC-2026",
+      "careerCode": "ISC",
+      "name": "Ingeniería en Sistemas de la Información y Ciencias de la Computación",
+      "center": "Centro Universitario Villa Nueva",
+      "mode": "Plan Sábado",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "active": true,
+      "source": "demostracion",
+      "institutionId": "inst-umg",
+      "centerId": "cent-vn",
+      "careerId": "car-vn",
+      "modalityId": "mod-sab"
+    },
+    {
+      "id": "plan-portales",
+      "code": "9989/2013",
+      "careerCode": "9989/2013",
+      "name": "Ingeniería en Sistemas de Información y Ciencias de la Computación",
+      "center": "Centro Universitario Portales",
+      "mode": "Plan Sábado",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "active": true,
+      "source": "documento-base-2025",
+      "institutionId": "inst-umg",
+      "centerId": "cent-port",
+      "careerId": "car-port",
+      "modalityId": "mod-sab"
+    },
+    {
+      "id": "demo-plan-ADM",
+      "code": "ADM-2026-DEMO",
+      "careerCode": "ADM",
+      "name": "Administración de Empresas",
+      "center": "Centro Universitario Villa Nueva",
+      "mode": "Plan Sábado",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "cent-vn",
+      "careerId": "demo-career-ADM",
+      "modalityId": "mod-sab",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-MER",
+      "code": "MER-2026-DEMO",
+      "careerCode": "MER",
+      "name": "Mercadotecnia",
+      "center": "Centro Universitario Villa Nueva",
+      "mode": "Plan Diario",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "cent-vn",
+      "careerId": "demo-career-MER",
+      "modalityId": "mod-dia",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-CPA",
+      "code": "CPA-2026-DEMO",
+      "careerCode": "CPA",
+      "name": "Contaduría Pública y Auditoría",
+      "center": "Centro Universitario Villa Nueva",
+      "mode": "Jornada Vespertina",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "cent-vn",
+      "careerId": "demo-career-CPA",
+      "modalityId": "mod-ves",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-DER",
+      "code": "DER-2026-DEMO",
+      "careerCode": "DER",
+      "name": "Ciencias Jurídicas y Sociales",
+      "center": "Centro Universitario Villa Nueva",
+      "mode": "Plan Nocturno",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "cent-vn",
+      "careerId": "demo-career-DER",
+      "modalityId": "mod-noc",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-PSI",
+      "code": "PSI-2026-DEMO",
+      "careerCode": "PSI",
+      "name": "Psicología",
+      "center": "Centro Universitario Villa Nueva",
+      "mode": "Plan Domingo",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "cent-vn",
+      "careerId": "demo-career-PSI",
+      "modalityId": "mod-dom",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-IND",
+      "code": "IND-2026-DEMO",
+      "careerCode": "IND",
+      "name": "Ingeniería Industrial",
+      "center": "Centro Universitario Villa Nueva",
+      "mode": "Plan Diario",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "cent-vn",
+      "careerId": "demo-career-IND",
+      "modalityId": "mod-dia",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-ARQ",
+      "code": "ARQ-2026-DEMO",
+      "careerCode": "ARQ",
+      "name": "Arquitectura",
+      "center": "Sede de prueba Norte (no oficial)",
+      "mode": "Plan Diario",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "demo-cent-norte",
+      "careerId": "demo-career-ARQ",
+      "modalityId": "mod-dia",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-ENF",
+      "code": "ENF-2026-DEMO",
+      "careerCode": "ENF",
+      "name": "Enfermería",
+      "center": "Sede de prueba Sur (no oficial)",
+      "mode": "Plan Fin de Semana",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "demo-cent-sur",
+      "careerId": "demo-career-ENF",
+      "modalityId": "mod-fin",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-TRA",
+      "code": "TRA-2026-DEMO",
+      "careerCode": "TRA",
+      "name": "Trabajo Social",
+      "center": "Sede de prueba Occidente (no oficial)",
+      "mode": "Plan Sábado",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "demo-cent-occ",
+      "careerId": "demo-career-TRA",
+      "modalityId": "mod-sab",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-TUR",
+      "code": "TUR-2026-DEMO",
+      "careerCode": "TUR",
+      "name": "Administración Turística",
+      "center": "Sede de prueba Oriente (no oficial)",
+      "mode": "Plan Domingo",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "demo-cent-oriente",
+      "careerId": "demo-career-TUR",
+      "modalityId": "mod-dom",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-COM",
+      "code": "COM-2026-DEMO",
+      "careerCode": "COM",
+      "name": "Comunicación Social",
+      "center": "Centro Universitario Portales",
+      "mode": "Jornada Vespertina",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "cent-port",
+      "careerId": "demo-career-COM",
+      "modalityId": "mod-ves",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-plan-PED",
+      "code": "PED-2026-DEMO",
+      "careerCode": "PED",
+      "name": "Pedagogía",
+      "center": "Centro Universitario Portales",
+      "mode": "Plan Domingo",
+      "university": "Universidad Mariano Gálvez de Guatemala",
+      "institutionId": "inst-umg",
+      "centerId": "cent-port",
+      "careerId": "demo-career-PED",
+      "modalityId": "mod-dom",
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "cycles": [
+    {
+      "id": "cy-1",
+      "number": 1,
+      "name": "Primero ciclo",
+      "active": true
+    },
+    {
+      "id": "cy-2",
+      "number": 2,
+      "name": "Segundo ciclo",
+      "active": true
+    },
+    {
+      "id": "cy-3",
+      "number": 3,
+      "name": "Tercero ciclo",
+      "active": true
+    },
+    {
+      "id": "cy-4",
+      "number": 4,
+      "name": "Cuarto ciclo",
+      "active": true
+    },
+    {
+      "id": "cy-5",
+      "number": 5,
+      "name": "Quinto ciclo",
+      "active": true
+    },
+    {
+      "id": "cy-6",
+      "number": 6,
+      "name": "Sexto ciclo",
+      "active": true
+    },
+    {
+      "id": "cy-7",
+      "number": 7,
+      "name": "Séptimo ciclo",
+      "active": true
+    },
+    {
+      "id": "cy-8",
+      "number": 8,
+      "name": "Octavo ciclo",
+      "active": true
+    },
+    {
+      "id": "cy-9",
+      "number": 9,
+      "name": "Noveno ciclo",
+      "active": true
+    },
+    {
+      "id": "cy-10",
+      "number": 10,
+      "name": "Décimo ciclo",
+      "active": true
+    }
+  ],
+  "periods": [
+    {
+      "id": "period-2025-1",
+      "label": "Primer semestre 2025",
+      "year": 2025,
+      "semester": 1,
+      "active": true
+    },
+    {
+      "id": "period-2025-2",
+      "label": "Segundo semestre 2025",
+      "year": 2025,
+      "semester": 2,
+      "active": true
+    },
+    {
+      "id": "period-2026-1",
+      "label": "Primer semestre 2026",
+      "year": 2026,
+      "semester": 1,
+      "active": true
+    },
+    {
+      "id": "period-2026-2",
+      "label": "Segundo semestre 2026",
+      "year": 2026,
+      "semester": 2,
+      "active": true
+    },
+    {
+      "id": "period-2027-1",
+      "label": "Primer semestre 2027",
+      "year": 2027,
+      "semester": 1,
+      "active": true
+    },
+    {
+      "id": "period-2027-2",
+      "label": "Segundo semestre 2027",
+      "year": 2027,
+      "semester": 2,
+      "active": true
+    },
+    {
+      "id": "demo-period-2024-1",
+      "label": "Primer semestre 2024",
+      "year": 2024,
+      "semester": 1,
+      "termType": "Semestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-period-2024-2",
+      "label": "Segundo semestre 2024",
+      "year": 2024,
+      "semester": 2,
+      "termType": "Semestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-period-2028-1",
+      "label": "Primer semestre 2028",
+      "year": 2028,
+      "semester": 1,
+      "termType": "Semestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-period-2028-2",
+      "label": "Segundo semestre 2028",
+      "year": 2028,
+      "semester": 2,
+      "termType": "Semestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-period-2029-1",
+      "label": "Primer semestre 2029",
+      "year": 2029,
+      "semester": 1,
+      "termType": "Semestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-period-2029-2",
+      "label": "Segundo semestre 2029",
+      "year": 2029,
+      "semester": 2,
+      "termType": "Semestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-period-2030-1",
+      "label": "Primer semestre 2030",
+      "year": 2030,
+      "semester": 1,
+      "termType": "Semestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-period-2030-2",
+      "label": "Segundo semestre 2030",
+      "year": 2030,
+      "semester": 2,
+      "termType": "Semestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-trimestre-2026-1",
+      "label": "Trimestre 1 2026 (prueba)",
+      "year": 2026,
+      "semester": 1,
+      "termType": "Trimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-trimestre-2026-2",
+      "label": "Trimestre 2 2026 (prueba)",
+      "year": 2026,
+      "semester": 2,
+      "termType": "Trimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-trimestre-2026-3",
+      "label": "Trimestre 3 2026 (prueba)",
+      "year": 2026,
+      "semester": 3,
+      "termType": "Trimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2026-1",
+      "label": "Período 1 2026 (prueba)",
+      "year": 2026,
+      "semester": 1,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2026-2",
+      "label": "Período 2 2026 (prueba)",
+      "year": 2026,
+      "semester": 2,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2026-3",
+      "label": "Período 3 2026 (prueba)",
+      "year": 2026,
+      "semester": 3,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2026-4",
+      "label": "Período 4 2026 (prueba)",
+      "year": 2026,
+      "semester": 4,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-interciclo-2026",
+      "label": "Interciclo 2026 (prueba)",
+      "year": 2026,
+      "semester": 3,
+      "termType": "Interciclo",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-trimestre-2027-1",
+      "label": "Trimestre 1 2027 (prueba)",
+      "year": 2027,
+      "semester": 1,
+      "termType": "Trimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-trimestre-2027-2",
+      "label": "Trimestre 2 2027 (prueba)",
+      "year": 2027,
+      "semester": 2,
+      "termType": "Trimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-trimestre-2027-3",
+      "label": "Trimestre 3 2027 (prueba)",
+      "year": 2027,
+      "semester": 3,
+      "termType": "Trimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2027-1",
+      "label": "Período 1 2027 (prueba)",
+      "year": 2027,
+      "semester": 1,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2027-2",
+      "label": "Período 2 2027 (prueba)",
+      "year": 2027,
+      "semester": 2,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2027-3",
+      "label": "Período 3 2027 (prueba)",
+      "year": 2027,
+      "semester": 3,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2027-4",
+      "label": "Período 4 2027 (prueba)",
+      "year": 2027,
+      "semester": 4,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-interciclo-2027",
+      "label": "Interciclo 2027 (prueba)",
+      "year": 2027,
+      "semester": 3,
+      "termType": "Interciclo",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-trimestre-2028-1",
+      "label": "Trimestre 1 2028 (prueba)",
+      "year": 2028,
+      "semester": 1,
+      "termType": "Trimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-trimestre-2028-2",
+      "label": "Trimestre 2 2028 (prueba)",
+      "year": 2028,
+      "semester": 2,
+      "termType": "Trimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-trimestre-2028-3",
+      "label": "Trimestre 3 2028 (prueba)",
+      "year": 2028,
+      "semester": 3,
+      "termType": "Trimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2028-1",
+      "label": "Período 1 2028 (prueba)",
+      "year": 2028,
+      "semester": 1,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2028-2",
+      "label": "Período 2 2028 (prueba)",
+      "year": 2028,
+      "semester": 2,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2028-3",
+      "label": "Período 3 2028 (prueba)",
+      "year": 2028,
+      "semester": 3,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cuatrimestre-2028-4",
+      "label": "Período 4 2028 (prueba)",
+      "year": 2028,
+      "semester": 4,
+      "termType": "Cuatrimestral",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-interciclo-2028",
+      "label": "Interciclo 2028 (prueba)",
+      "year": 2028,
+      "semester": 3,
+      "termType": "Interciclo",
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room-1",
+      "code": "A-101",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true
+    },
+    {
+      "id": "room-2",
+      "code": "A-102",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true
+    },
+    {
+      "id": "room-3",
+      "code": "A-201",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true
+    },
+    {
+      "id": "room-4",
+      "code": "A-301",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true
+    },
+    {
+      "id": "room-5",
+      "code": "B-101",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true
+    },
+    {
+      "id": "room-6",
+      "code": "B-201",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true
+    },
+    {
+      "id": "room-7",
+      "code": "B-301",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true
+    },
+    {
+      "id": "room-8",
+      "code": "B-401",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true
+    },
+    {
+      "id": "room-9",
+      "code": "LAB-01",
+      "capacity": 30,
+      "type": "Laboratorio",
+      "active": true
+    },
+    {
+      "id": "room-10",
+      "code": "LAB-02",
+      "capacity": 30,
+      "type": "Laboratorio",
+      "active": true
+    },
+    {
+      "id": "demo-room-1",
+      "code": "A-401",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-room-2",
+      "code": "A-402",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-room-3",
+      "code": "B-402",
+      "capacity": 35,
+      "type": "Salón",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-room-4",
+      "code": "C-101",
+      "capacity": 45,
+      "type": "Salón",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-room-5",
+      "code": "C-201",
+      "capacity": 40,
+      "type": "Salón",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-room-6",
+      "code": "LAB-03",
+      "capacity": 30,
+      "type": "Laboratorio",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-room-7",
+      "code": "LAB-04",
+      "capacity": 25,
+      "type": "Laboratorio",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-room-8",
+      "code": "AUD-01",
+      "capacity": 80,
+      "type": "Auditorio",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-room-9",
+      "code": "INF-01",
+      "capacity": 30,
+      "type": "Aula de informática",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-room-10",
+      "code": "INF-02",
+      "capacity": 30,
+      "type": "Aula de informática",
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "slots": [
+    {
+      "id": "slot-1",
+      "day": "Sábado",
+      "start": "07:00",
+      "end": "09:00",
+      "active": true
+    },
+    {
+      "id": "slot-2",
+      "day": "Sábado",
+      "start": "09:00",
+      "end": "11:00",
+      "active": true
+    },
+    {
+      "id": "slot-3",
+      "day": "Sábado",
+      "start": "11:00",
+      "end": "13:00",
+      "active": true
+    },
+    {
+      "id": "slot-4",
+      "day": "Sábado",
+      "start": "14:00",
+      "end": "16:00",
+      "active": true
+    },
+    {
+      "id": "slot-5",
+      "day": "Sábado",
+      "start": "16:00",
+      "end": "18:00",
+      "active": true
+    },
+    {
+      "id": "slot-Lunes-1",
+      "day": "Lunes",
+      "start": "07:00",
+      "end": "08:35",
+      "active": true
+    },
+    {
+      "id": "slot-Lunes-2",
+      "day": "Lunes",
+      "start": "08:35",
+      "end": "10:10",
+      "active": true
+    },
+    {
+      "id": "slot-Lunes-3",
+      "day": "Lunes",
+      "start": "10:10",
+      "end": "11:45",
+      "active": true
+    },
+    {
+      "id": "slot-Lunes-4",
+      "day": "Lunes",
+      "start": "11:45",
+      "end": "13:20",
+      "active": true
+    },
+    {
+      "id": "slot-Lunes-5",
+      "day": "Lunes",
+      "start": "14:00",
+      "end": "15:35",
+      "active": true
+    },
+    {
+      "id": "slot-Lunes-6",
+      "day": "Lunes",
+      "start": "15:35",
+      "end": "17:10",
+      "active": true
+    },
+    {
+      "id": "slot-Martes-1",
+      "day": "Martes",
+      "start": "07:00",
+      "end": "08:35",
+      "active": true
+    },
+    {
+      "id": "slot-Martes-2",
+      "day": "Martes",
+      "start": "08:35",
+      "end": "10:10",
+      "active": true
+    },
+    {
+      "id": "slot-Martes-3",
+      "day": "Martes",
+      "start": "10:10",
+      "end": "11:45",
+      "active": true
+    },
+    {
+      "id": "slot-Martes-4",
+      "day": "Martes",
+      "start": "11:45",
+      "end": "13:20",
+      "active": true
+    },
+    {
+      "id": "slot-Martes-5",
+      "day": "Martes",
+      "start": "14:00",
+      "end": "15:35",
+      "active": true
+    },
+    {
+      "id": "slot-Martes-6",
+      "day": "Martes",
+      "start": "15:35",
+      "end": "17:10",
+      "active": true
+    },
+    {
+      "id": "slot-Miércoles-1",
+      "day": "Miércoles",
+      "start": "07:00",
+      "end": "08:35",
+      "active": true
+    },
+    {
+      "id": "slot-Miércoles-2",
+      "day": "Miércoles",
+      "start": "08:35",
+      "end": "10:10",
+      "active": true
+    },
+    {
+      "id": "slot-Miércoles-3",
+      "day": "Miércoles",
+      "start": "10:10",
+      "end": "11:45",
+      "active": true
+    },
+    {
+      "id": "slot-Miércoles-4",
+      "day": "Miércoles",
+      "start": "11:45",
+      "end": "13:20",
+      "active": true
+    },
+    {
+      "id": "slot-Miércoles-5",
+      "day": "Miércoles",
+      "start": "14:00",
+      "end": "15:35",
+      "active": true
+    },
+    {
+      "id": "slot-Miércoles-6",
+      "day": "Miércoles",
+      "start": "15:35",
+      "end": "17:10",
+      "active": true
+    },
+    {
+      "id": "slot-Jueves-1",
+      "day": "Jueves",
+      "start": "07:00",
+      "end": "08:35",
+      "active": true
+    },
+    {
+      "id": "slot-Jueves-2",
+      "day": "Jueves",
+      "start": "08:35",
+      "end": "10:10",
+      "active": true
+    },
+    {
+      "id": "slot-Jueves-3",
+      "day": "Jueves",
+      "start": "10:10",
+      "end": "11:45",
+      "active": true
+    },
+    {
+      "id": "slot-Jueves-4",
+      "day": "Jueves",
+      "start": "11:45",
+      "end": "13:20",
+      "active": true
+    },
+    {
+      "id": "slot-Jueves-5",
+      "day": "Jueves",
+      "start": "14:00",
+      "end": "15:35",
+      "active": true
+    },
+    {
+      "id": "slot-Jueves-6",
+      "day": "Jueves",
+      "start": "15:35",
+      "end": "17:10",
+      "active": true
+    },
+    {
+      "id": "slot-Viernes-1",
+      "day": "Viernes",
+      "start": "07:00",
+      "end": "08:35",
+      "active": true
+    },
+    {
+      "id": "slot-Viernes-2",
+      "day": "Viernes",
+      "start": "08:35",
+      "end": "10:10",
+      "active": true
+    },
+    {
+      "id": "slot-Viernes-3",
+      "day": "Viernes",
+      "start": "10:10",
+      "end": "11:45",
+      "active": true
+    },
+    {
+      "id": "slot-Viernes-4",
+      "day": "Viernes",
+      "start": "11:45",
+      "end": "13:20",
+      "active": true
+    },
+    {
+      "id": "slot-Viernes-5",
+      "day": "Viernes",
+      "start": "14:00",
+      "end": "15:35",
+      "active": true
+    },
+    {
+      "id": "slot-Viernes-6",
+      "day": "Viernes",
+      "start": "15:35",
+      "end": "17:10",
+      "active": true
+    },
+    {
+      "id": "demo-slot-1-0600-0730",
+      "day": "Lunes",
+      "start": "06:00",
+      "end": "07:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-1-0730-0900",
+      "day": "Lunes",
+      "start": "07:30",
+      "end": "09:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-1-0900-1030",
+      "day": "Lunes",
+      "start": "09:00",
+      "end": "10:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-1-1030-1200",
+      "day": "Lunes",
+      "start": "10:30",
+      "end": "12:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-1-1200-1330",
+      "day": "Lunes",
+      "start": "12:00",
+      "end": "13:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-1-1330-1500",
+      "day": "Lunes",
+      "start": "13:30",
+      "end": "15:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-1-1500-1630",
+      "day": "Lunes",
+      "start": "15:00",
+      "end": "16:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-1-1630-1800",
+      "day": "Lunes",
+      "start": "16:30",
+      "end": "18:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-1-1800-1930",
+      "day": "Lunes",
+      "start": "18:00",
+      "end": "19:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-1-1930-2100",
+      "day": "Lunes",
+      "start": "19:30",
+      "end": "21:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-1-2000-2130",
+      "day": "Lunes",
+      "start": "20:00",
+      "end": "21:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-0600-0730",
+      "day": "Martes",
+      "start": "06:00",
+      "end": "07:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-0730-0900",
+      "day": "Martes",
+      "start": "07:30",
+      "end": "09:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-0900-1030",
+      "day": "Martes",
+      "start": "09:00",
+      "end": "10:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-1030-1200",
+      "day": "Martes",
+      "start": "10:30",
+      "end": "12:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-1200-1330",
+      "day": "Martes",
+      "start": "12:00",
+      "end": "13:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-1330-1500",
+      "day": "Martes",
+      "start": "13:30",
+      "end": "15:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-1500-1630",
+      "day": "Martes",
+      "start": "15:00",
+      "end": "16:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-1630-1800",
+      "day": "Martes",
+      "start": "16:30",
+      "end": "18:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-1800-1930",
+      "day": "Martes",
+      "start": "18:00",
+      "end": "19:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-1930-2100",
+      "day": "Martes",
+      "start": "19:30",
+      "end": "21:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-2-2000-2130",
+      "day": "Martes",
+      "start": "20:00",
+      "end": "21:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-0600-0730",
+      "day": "Miércoles",
+      "start": "06:00",
+      "end": "07:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-0730-0900",
+      "day": "Miércoles",
+      "start": "07:30",
+      "end": "09:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-0900-1030",
+      "day": "Miércoles",
+      "start": "09:00",
+      "end": "10:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-1030-1200",
+      "day": "Miércoles",
+      "start": "10:30",
+      "end": "12:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-1200-1330",
+      "day": "Miércoles",
+      "start": "12:00",
+      "end": "13:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-1330-1500",
+      "day": "Miércoles",
+      "start": "13:30",
+      "end": "15:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-1500-1630",
+      "day": "Miércoles",
+      "start": "15:00",
+      "end": "16:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-1630-1800",
+      "day": "Miércoles",
+      "start": "16:30",
+      "end": "18:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-1800-1930",
+      "day": "Miércoles",
+      "start": "18:00",
+      "end": "19:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-1930-2100",
+      "day": "Miércoles",
+      "start": "19:30",
+      "end": "21:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-3-2000-2130",
+      "day": "Miércoles",
+      "start": "20:00",
+      "end": "21:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-0600-0730",
+      "day": "Jueves",
+      "start": "06:00",
+      "end": "07:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-0730-0900",
+      "day": "Jueves",
+      "start": "07:30",
+      "end": "09:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-0900-1030",
+      "day": "Jueves",
+      "start": "09:00",
+      "end": "10:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-1030-1200",
+      "day": "Jueves",
+      "start": "10:30",
+      "end": "12:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-1200-1330",
+      "day": "Jueves",
+      "start": "12:00",
+      "end": "13:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-1330-1500",
+      "day": "Jueves",
+      "start": "13:30",
+      "end": "15:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-1500-1630",
+      "day": "Jueves",
+      "start": "15:00",
+      "end": "16:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-1630-1800",
+      "day": "Jueves",
+      "start": "16:30",
+      "end": "18:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-1800-1930",
+      "day": "Jueves",
+      "start": "18:00",
+      "end": "19:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-1930-2100",
+      "day": "Jueves",
+      "start": "19:30",
+      "end": "21:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-4-2000-2130",
+      "day": "Jueves",
+      "start": "20:00",
+      "end": "21:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-0600-0730",
+      "day": "Viernes",
+      "start": "06:00",
+      "end": "07:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-0730-0900",
+      "day": "Viernes",
+      "start": "07:30",
+      "end": "09:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-0900-1030",
+      "day": "Viernes",
+      "start": "09:00",
+      "end": "10:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-1030-1200",
+      "day": "Viernes",
+      "start": "10:30",
+      "end": "12:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-1200-1330",
+      "day": "Viernes",
+      "start": "12:00",
+      "end": "13:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-1330-1500",
+      "day": "Viernes",
+      "start": "13:30",
+      "end": "15:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-1500-1630",
+      "day": "Viernes",
+      "start": "15:00",
+      "end": "16:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-1630-1800",
+      "day": "Viernes",
+      "start": "16:30",
+      "end": "18:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-1800-1930",
+      "day": "Viernes",
+      "start": "18:00",
+      "end": "19:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-1930-2100",
+      "day": "Viernes",
+      "start": "19:30",
+      "end": "21:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-5-2000-2130",
+      "day": "Viernes",
+      "start": "20:00",
+      "end": "21:30",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-6-0600-0800",
+      "day": "Sábado",
+      "start": "06:00",
+      "end": "08:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-6-0800-1000",
+      "day": "Sábado",
+      "start": "08:00",
+      "end": "10:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-6-1000-1200",
+      "day": "Sábado",
+      "start": "10:00",
+      "end": "12:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-6-1200-1400",
+      "day": "Sábado",
+      "start": "12:00",
+      "end": "14:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-6-1300-1500",
+      "day": "Sábado",
+      "start": "13:00",
+      "end": "15:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-6-1500-1700",
+      "day": "Sábado",
+      "start": "15:00",
+      "end": "17:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-6-1700-1900",
+      "day": "Sábado",
+      "start": "17:00",
+      "end": "19:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-6-1800-2000",
+      "day": "Sábado",
+      "start": "18:00",
+      "end": "20:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-6-1900-2100",
+      "day": "Sábado",
+      "start": "19:00",
+      "end": "21:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-0700-0900",
+      "day": "Domingo",
+      "start": "07:00",
+      "end": "09:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-0800-1000",
+      "day": "Domingo",
+      "start": "08:00",
+      "end": "10:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-0900-1100",
+      "day": "Domingo",
+      "start": "09:00",
+      "end": "11:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-1000-1200",
+      "day": "Domingo",
+      "start": "10:00",
+      "end": "12:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-1100-1300",
+      "day": "Domingo",
+      "start": "11:00",
+      "end": "13:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-1200-1400",
+      "day": "Domingo",
+      "start": "12:00",
+      "end": "14:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-1300-1500",
+      "day": "Domingo",
+      "start": "13:00",
+      "end": "15:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-1400-1600",
+      "day": "Domingo",
+      "start": "14:00",
+      "end": "16:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-1500-1700",
+      "day": "Domingo",
+      "start": "15:00",
+      "end": "17:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-1600-1800",
+      "day": "Domingo",
+      "start": "16:00",
+      "end": "18:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-1700-1900",
+      "day": "Domingo",
+      "start": "17:00",
+      "end": "19:00",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-slot-7-1800-2000",
+      "day": "Domingo",
+      "start": "18:00",
+      "end": "20:00",
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-1",
+      "code": "046",
+      "name": "Telecomunicaciones",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-8",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "course-2",
+      "code": "047",
+      "name": "Seguridad y Auditoría de Sistemas",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-8",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "course-3",
+      "code": "048",
+      "name": "Aseguramiento de la Calidad del Software",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-8",
+      "lab": true,
+      "labCost": 100,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "course-4",
+      "code": "049",
+      "name": "Administración de Proyectos Informáticos",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-8",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "course-5",
+      "code": "041",
+      "name": "Redes de Computadoras",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-7",
+      "lab": true,
+      "labCost": 100,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "course-6",
+      "code": "042",
+      "name": "Bases de Datos II",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-7",
+      "lab": true,
+      "labCost": 100,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "course-7",
+      "code": "043",
+      "name": "Ingeniería de Software",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-7",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "course-8",
+      "code": "044",
+      "name": "Sistemas Operativos",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-7",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "course-9",
+      "code": "050",
+      "name": "Proyecto Integrador",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-9",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "course-10",
+      "code": "051",
+      "name": "Gestión de Tecnología",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-9",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "course-11",
+      "code": "052",
+      "name": "Gestión de Incidentes",
+      "planId": "plan-sistemas",
+      "cycleId": "cy-8",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "ref-course-006",
+      "code": "9989-006",
+      "name": "Precálculo",
+      "planId": "plan-portales",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-007",
+      "code": "9989-007",
+      "name": "Álgebra Lineal",
+      "planId": "plan-portales",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-008",
+      "code": "9989-008",
+      "name": "Algoritmos",
+      "planId": "plan-portales",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 110,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-009",
+      "code": "9989-009",
+      "name": "Contabilidad II",
+      "planId": "plan-portales",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-010",
+      "code": "9989-010",
+      "name": "Matemática Discreta",
+      "planId": "plan-portales",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-016",
+      "code": "9989-016",
+      "name": "Microeconomía",
+      "planId": "plan-portales",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-017",
+      "code": "9989-017",
+      "name": "Programación II",
+      "planId": "plan-portales",
+      "cycleId": "cy-4",
+      "lab": true,
+      "labCost": 110,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-018",
+      "code": "9989-018",
+      "name": "Cálculo II",
+      "planId": "plan-portales",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-019",
+      "code": "9989-019",
+      "name": "Estadística I",
+      "planId": "plan-portales",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-020",
+      "code": "9989-020",
+      "name": "Física II",
+      "planId": "plan-portales",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-026",
+      "code": "9989-026",
+      "name": "Investigación de Operaciones",
+      "planId": "plan-portales",
+      "cycleId": "cy-6",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-027",
+      "code": "9989-027",
+      "name": "Bases de Datos I",
+      "planId": "plan-portales",
+      "cycleId": "cy-6",
+      "lab": true,
+      "labCost": 110,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-028",
+      "code": "9989-028",
+      "name": "Autómatas y Lenguajes Formales",
+      "planId": "plan-portales",
+      "cycleId": "cy-6",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-029",
+      "code": "9989-029",
+      "name": "Sistemas Operativos I",
+      "planId": "plan-portales",
+      "cycleId": "cy-6",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-030",
+      "code": "9989-030",
+      "name": "Electrónica Digital",
+      "planId": "plan-portales",
+      "cycleId": "cy-6",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-036",
+      "code": "9989-036",
+      "name": "Desarrollo Web",
+      "planId": "plan-portales",
+      "cycleId": "cy-8",
+      "lab": true,
+      "labCost": 110,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-037",
+      "code": "9989-037",
+      "name": "Análisis de Sistemas II",
+      "planId": "plan-portales",
+      "cycleId": "cy-8",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-038",
+      "code": "9989-038",
+      "name": "Redes de Computadoras I",
+      "planId": "plan-portales",
+      "cycleId": "cy-8",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-039",
+      "code": "9989-039",
+      "name": "Ética Profesional",
+      "planId": "plan-portales",
+      "cycleId": "cy-8",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-040",
+      "code": "9989-040",
+      "name": "Arquitectura de Computadoras II",
+      "planId": "plan-portales",
+      "cycleId": "cy-8",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-046",
+      "code": "9989-046",
+      "name": "Telecomunicaciones",
+      "planId": "plan-portales",
+      "cycleId": "cy-10",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-047",
+      "code": "9989-047",
+      "name": "Seminario de Tecnología de Información",
+      "planId": "plan-portales",
+      "cycleId": "cy-10",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-048",
+      "code": "9989-048",
+      "name": "Aseguramiento de la Calidad de Software",
+      "planId": "plan-portales",
+      "cycleId": "cy-10",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-049",
+      "code": "9989-049",
+      "name": "Proyecto de Graduación II",
+      "planId": "plan-portales",
+      "cycleId": "cy-10",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "ref-course-050",
+      "code": "9989-050",
+      "name": "Seguridad y Auditoría de Sistemas",
+      "planId": "plan-portales",
+      "cycleId": "cy-10",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "demo-course-ADM-1",
+      "code": "ADM-001",
+      "name": "Fundamentos de la disciplina (ADM · ejemplo)",
+      "planId": "demo-plan-ADM",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ADM-2",
+      "code": "ADM-002",
+      "name": "Introducción a la carrera (ADM · ejemplo)",
+      "planId": "demo-plan-ADM",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ADM-3",
+      "code": "ADM-003",
+      "name": "Comunicación y redacción (ADM · ejemplo)",
+      "planId": "demo-plan-ADM",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ADM-4",
+      "code": "ADM-004",
+      "name": "Herramientas digitales (ADM · ejemplo)",
+      "planId": "demo-plan-ADM",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ADM-5",
+      "code": "ADM-005",
+      "name": "Estadística aplicada (ADM · ejemplo)",
+      "planId": "demo-plan-ADM",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ADM-6",
+      "code": "ADM-006",
+      "name": "Metodología de la investigación (ADM · ejemplo)",
+      "planId": "demo-plan-ADM",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ADM-7",
+      "code": "ADM-007",
+      "name": "Ética profesional (ADM · ejemplo)",
+      "planId": "demo-plan-ADM",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ADM-8",
+      "code": "ADM-008",
+      "name": "Gestión de proyectos (ADM · ejemplo)",
+      "planId": "demo-plan-ADM",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ADM-9",
+      "code": "ADM-009",
+      "name": "Seminario integrador (ADM · ejemplo)",
+      "planId": "demo-plan-ADM",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ADM-10",
+      "code": "ADM-010",
+      "name": "Investigación aplicada (ADM · ejemplo)",
+      "planId": "demo-plan-ADM",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-MER-1",
+      "code": "MER-001",
+      "name": "Fundamentos de la disciplina (MER · ejemplo)",
+      "planId": "demo-plan-MER",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-MER-2",
+      "code": "MER-002",
+      "name": "Introducción a la carrera (MER · ejemplo)",
+      "planId": "demo-plan-MER",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-MER-3",
+      "code": "MER-003",
+      "name": "Comunicación y redacción (MER · ejemplo)",
+      "planId": "demo-plan-MER",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-MER-4",
+      "code": "MER-004",
+      "name": "Herramientas digitales (MER · ejemplo)",
+      "planId": "demo-plan-MER",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-MER-5",
+      "code": "MER-005",
+      "name": "Estadística aplicada (MER · ejemplo)",
+      "planId": "demo-plan-MER",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-MER-6",
+      "code": "MER-006",
+      "name": "Metodología de la investigación (MER · ejemplo)",
+      "planId": "demo-plan-MER",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-MER-7",
+      "code": "MER-007",
+      "name": "Ética profesional (MER · ejemplo)",
+      "planId": "demo-plan-MER",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-MER-8",
+      "code": "MER-008",
+      "name": "Gestión de proyectos (MER · ejemplo)",
+      "planId": "demo-plan-MER",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-MER-9",
+      "code": "MER-009",
+      "name": "Seminario integrador (MER · ejemplo)",
+      "planId": "demo-plan-MER",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-MER-10",
+      "code": "MER-010",
+      "name": "Investigación aplicada (MER · ejemplo)",
+      "planId": "demo-plan-MER",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-CPA-1",
+      "code": "CPA-001",
+      "name": "Fundamentos de la disciplina (CPA · ejemplo)",
+      "planId": "demo-plan-CPA",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-CPA-2",
+      "code": "CPA-002",
+      "name": "Introducción a la carrera (CPA · ejemplo)",
+      "planId": "demo-plan-CPA",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-CPA-3",
+      "code": "CPA-003",
+      "name": "Comunicación y redacción (CPA · ejemplo)",
+      "planId": "demo-plan-CPA",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-CPA-4",
+      "code": "CPA-004",
+      "name": "Herramientas digitales (CPA · ejemplo)",
+      "planId": "demo-plan-CPA",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-CPA-5",
+      "code": "CPA-005",
+      "name": "Estadística aplicada (CPA · ejemplo)",
+      "planId": "demo-plan-CPA",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-CPA-6",
+      "code": "CPA-006",
+      "name": "Metodología de la investigación (CPA · ejemplo)",
+      "planId": "demo-plan-CPA",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-CPA-7",
+      "code": "CPA-007",
+      "name": "Ética profesional (CPA · ejemplo)",
+      "planId": "demo-plan-CPA",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-CPA-8",
+      "code": "CPA-008",
+      "name": "Gestión de proyectos (CPA · ejemplo)",
+      "planId": "demo-plan-CPA",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-CPA-9",
+      "code": "CPA-009",
+      "name": "Seminario integrador (CPA · ejemplo)",
+      "planId": "demo-plan-CPA",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-CPA-10",
+      "code": "CPA-010",
+      "name": "Investigación aplicada (CPA · ejemplo)",
+      "planId": "demo-plan-CPA",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-DER-1",
+      "code": "DER-001",
+      "name": "Fundamentos de la disciplina (DER · ejemplo)",
+      "planId": "demo-plan-DER",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-DER-2",
+      "code": "DER-002",
+      "name": "Introducción a la carrera (DER · ejemplo)",
+      "planId": "demo-plan-DER",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-DER-3",
+      "code": "DER-003",
+      "name": "Comunicación y redacción (DER · ejemplo)",
+      "planId": "demo-plan-DER",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-DER-4",
+      "code": "DER-004",
+      "name": "Herramientas digitales (DER · ejemplo)",
+      "planId": "demo-plan-DER",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-DER-5",
+      "code": "DER-005",
+      "name": "Estadística aplicada (DER · ejemplo)",
+      "planId": "demo-plan-DER",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-DER-6",
+      "code": "DER-006",
+      "name": "Metodología de la investigación (DER · ejemplo)",
+      "planId": "demo-plan-DER",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-DER-7",
+      "code": "DER-007",
+      "name": "Ética profesional (DER · ejemplo)",
+      "planId": "demo-plan-DER",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-DER-8",
+      "code": "DER-008",
+      "name": "Gestión de proyectos (DER · ejemplo)",
+      "planId": "demo-plan-DER",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-DER-9",
+      "code": "DER-009",
+      "name": "Seminario integrador (DER · ejemplo)",
+      "planId": "demo-plan-DER",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-DER-10",
+      "code": "DER-010",
+      "name": "Investigación aplicada (DER · ejemplo)",
+      "planId": "demo-plan-DER",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PSI-1",
+      "code": "PSI-001",
+      "name": "Fundamentos de la disciplina (PSI · ejemplo)",
+      "planId": "demo-plan-PSI",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PSI-2",
+      "code": "PSI-002",
+      "name": "Introducción a la carrera (PSI · ejemplo)",
+      "planId": "demo-plan-PSI",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PSI-3",
+      "code": "PSI-003",
+      "name": "Comunicación y redacción (PSI · ejemplo)",
+      "planId": "demo-plan-PSI",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PSI-4",
+      "code": "PSI-004",
+      "name": "Herramientas digitales (PSI · ejemplo)",
+      "planId": "demo-plan-PSI",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PSI-5",
+      "code": "PSI-005",
+      "name": "Estadística aplicada (PSI · ejemplo)",
+      "planId": "demo-plan-PSI",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PSI-6",
+      "code": "PSI-006",
+      "name": "Metodología de la investigación (PSI · ejemplo)",
+      "planId": "demo-plan-PSI",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PSI-7",
+      "code": "PSI-007",
+      "name": "Ética profesional (PSI · ejemplo)",
+      "planId": "demo-plan-PSI",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PSI-8",
+      "code": "PSI-008",
+      "name": "Gestión de proyectos (PSI · ejemplo)",
+      "planId": "demo-plan-PSI",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PSI-9",
+      "code": "PSI-009",
+      "name": "Seminario integrador (PSI · ejemplo)",
+      "planId": "demo-plan-PSI",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PSI-10",
+      "code": "PSI-010",
+      "name": "Investigación aplicada (PSI · ejemplo)",
+      "planId": "demo-plan-PSI",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-IND-1",
+      "code": "IND-001",
+      "name": "Fundamentos de la disciplina (IND · ejemplo)",
+      "planId": "demo-plan-IND",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-IND-2",
+      "code": "IND-002",
+      "name": "Introducción a la carrera (IND · ejemplo)",
+      "planId": "demo-plan-IND",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-IND-3",
+      "code": "IND-003",
+      "name": "Comunicación y redacción (IND · ejemplo)",
+      "planId": "demo-plan-IND",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-IND-4",
+      "code": "IND-004",
+      "name": "Herramientas digitales (IND · ejemplo)",
+      "planId": "demo-plan-IND",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-IND-5",
+      "code": "IND-005",
+      "name": "Estadística aplicada (IND · ejemplo)",
+      "planId": "demo-plan-IND",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-IND-6",
+      "code": "IND-006",
+      "name": "Metodología de la investigación (IND · ejemplo)",
+      "planId": "demo-plan-IND",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-IND-7",
+      "code": "IND-007",
+      "name": "Ética profesional (IND · ejemplo)",
+      "planId": "demo-plan-IND",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-IND-8",
+      "code": "IND-008",
+      "name": "Gestión de proyectos (IND · ejemplo)",
+      "planId": "demo-plan-IND",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-IND-9",
+      "code": "IND-009",
+      "name": "Seminario integrador (IND · ejemplo)",
+      "planId": "demo-plan-IND",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-IND-10",
+      "code": "IND-010",
+      "name": "Investigación aplicada (IND · ejemplo)",
+      "planId": "demo-plan-IND",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ARQ-1",
+      "code": "ARQ-001",
+      "name": "Fundamentos de la disciplina (ARQ · ejemplo)",
+      "planId": "demo-plan-ARQ",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ARQ-2",
+      "code": "ARQ-002",
+      "name": "Introducción a la carrera (ARQ · ejemplo)",
+      "planId": "demo-plan-ARQ",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ARQ-3",
+      "code": "ARQ-003",
+      "name": "Comunicación y redacción (ARQ · ejemplo)",
+      "planId": "demo-plan-ARQ",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ARQ-4",
+      "code": "ARQ-004",
+      "name": "Herramientas digitales (ARQ · ejemplo)",
+      "planId": "demo-plan-ARQ",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ARQ-5",
+      "code": "ARQ-005",
+      "name": "Estadística aplicada (ARQ · ejemplo)",
+      "planId": "demo-plan-ARQ",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ARQ-6",
+      "code": "ARQ-006",
+      "name": "Metodología de la investigación (ARQ · ejemplo)",
+      "planId": "demo-plan-ARQ",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ARQ-7",
+      "code": "ARQ-007",
+      "name": "Ética profesional (ARQ · ejemplo)",
+      "planId": "demo-plan-ARQ",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ARQ-8",
+      "code": "ARQ-008",
+      "name": "Gestión de proyectos (ARQ · ejemplo)",
+      "planId": "demo-plan-ARQ",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ARQ-9",
+      "code": "ARQ-009",
+      "name": "Seminario integrador (ARQ · ejemplo)",
+      "planId": "demo-plan-ARQ",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ARQ-10",
+      "code": "ARQ-010",
+      "name": "Investigación aplicada (ARQ · ejemplo)",
+      "planId": "demo-plan-ARQ",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ENF-1",
+      "code": "ENF-001",
+      "name": "Fundamentos de la disciplina (ENF · ejemplo)",
+      "planId": "demo-plan-ENF",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ENF-2",
+      "code": "ENF-002",
+      "name": "Introducción a la carrera (ENF · ejemplo)",
+      "planId": "demo-plan-ENF",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ENF-3",
+      "code": "ENF-003",
+      "name": "Comunicación y redacción (ENF · ejemplo)",
+      "planId": "demo-plan-ENF",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ENF-4",
+      "code": "ENF-004",
+      "name": "Herramientas digitales (ENF · ejemplo)",
+      "planId": "demo-plan-ENF",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ENF-5",
+      "code": "ENF-005",
+      "name": "Estadística aplicada (ENF · ejemplo)",
+      "planId": "demo-plan-ENF",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ENF-6",
+      "code": "ENF-006",
+      "name": "Metodología de la investigación (ENF · ejemplo)",
+      "planId": "demo-plan-ENF",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ENF-7",
+      "code": "ENF-007",
+      "name": "Ética profesional (ENF · ejemplo)",
+      "planId": "demo-plan-ENF",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ENF-8",
+      "code": "ENF-008",
+      "name": "Gestión de proyectos (ENF · ejemplo)",
+      "planId": "demo-plan-ENF",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ENF-9",
+      "code": "ENF-009",
+      "name": "Seminario integrador (ENF · ejemplo)",
+      "planId": "demo-plan-ENF",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-ENF-10",
+      "code": "ENF-010",
+      "name": "Investigación aplicada (ENF · ejemplo)",
+      "planId": "demo-plan-ENF",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TRA-1",
+      "code": "TRA-001",
+      "name": "Fundamentos de la disciplina (TRA · ejemplo)",
+      "planId": "demo-plan-TRA",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TRA-2",
+      "code": "TRA-002",
+      "name": "Introducción a la carrera (TRA · ejemplo)",
+      "planId": "demo-plan-TRA",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TRA-3",
+      "code": "TRA-003",
+      "name": "Comunicación y redacción (TRA · ejemplo)",
+      "planId": "demo-plan-TRA",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TRA-4",
+      "code": "TRA-004",
+      "name": "Herramientas digitales (TRA · ejemplo)",
+      "planId": "demo-plan-TRA",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TRA-5",
+      "code": "TRA-005",
+      "name": "Estadística aplicada (TRA · ejemplo)",
+      "planId": "demo-plan-TRA",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TRA-6",
+      "code": "TRA-006",
+      "name": "Metodología de la investigación (TRA · ejemplo)",
+      "planId": "demo-plan-TRA",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TRA-7",
+      "code": "TRA-007",
+      "name": "Ética profesional (TRA · ejemplo)",
+      "planId": "demo-plan-TRA",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TRA-8",
+      "code": "TRA-008",
+      "name": "Gestión de proyectos (TRA · ejemplo)",
+      "planId": "demo-plan-TRA",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TRA-9",
+      "code": "TRA-009",
+      "name": "Seminario integrador (TRA · ejemplo)",
+      "planId": "demo-plan-TRA",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TRA-10",
+      "code": "TRA-010",
+      "name": "Investigación aplicada (TRA · ejemplo)",
+      "planId": "demo-plan-TRA",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TUR-1",
+      "code": "TUR-001",
+      "name": "Fundamentos de la disciplina (TUR · ejemplo)",
+      "planId": "demo-plan-TUR",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TUR-2",
+      "code": "TUR-002",
+      "name": "Introducción a la carrera (TUR · ejemplo)",
+      "planId": "demo-plan-TUR",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TUR-3",
+      "code": "TUR-003",
+      "name": "Comunicación y redacción (TUR · ejemplo)",
+      "planId": "demo-plan-TUR",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TUR-4",
+      "code": "TUR-004",
+      "name": "Herramientas digitales (TUR · ejemplo)",
+      "planId": "demo-plan-TUR",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TUR-5",
+      "code": "TUR-005",
+      "name": "Estadística aplicada (TUR · ejemplo)",
+      "planId": "demo-plan-TUR",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TUR-6",
+      "code": "TUR-006",
+      "name": "Metodología de la investigación (TUR · ejemplo)",
+      "planId": "demo-plan-TUR",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TUR-7",
+      "code": "TUR-007",
+      "name": "Ética profesional (TUR · ejemplo)",
+      "planId": "demo-plan-TUR",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TUR-8",
+      "code": "TUR-008",
+      "name": "Gestión de proyectos (TUR · ejemplo)",
+      "planId": "demo-plan-TUR",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TUR-9",
+      "code": "TUR-009",
+      "name": "Seminario integrador (TUR · ejemplo)",
+      "planId": "demo-plan-TUR",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-TUR-10",
+      "code": "TUR-010",
+      "name": "Investigación aplicada (TUR · ejemplo)",
+      "planId": "demo-plan-TUR",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-COM-1",
+      "code": "COM-001",
+      "name": "Fundamentos de la disciplina (COM · ejemplo)",
+      "planId": "demo-plan-COM",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-COM-2",
+      "code": "COM-002",
+      "name": "Introducción a la carrera (COM · ejemplo)",
+      "planId": "demo-plan-COM",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-COM-3",
+      "code": "COM-003",
+      "name": "Comunicación y redacción (COM · ejemplo)",
+      "planId": "demo-plan-COM",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-COM-4",
+      "code": "COM-004",
+      "name": "Herramientas digitales (COM · ejemplo)",
+      "planId": "demo-plan-COM",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-COM-5",
+      "code": "COM-005",
+      "name": "Estadística aplicada (COM · ejemplo)",
+      "planId": "demo-plan-COM",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-COM-6",
+      "code": "COM-006",
+      "name": "Metodología de la investigación (COM · ejemplo)",
+      "planId": "demo-plan-COM",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-COM-7",
+      "code": "COM-007",
+      "name": "Ética profesional (COM · ejemplo)",
+      "planId": "demo-plan-COM",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-COM-8",
+      "code": "COM-008",
+      "name": "Gestión de proyectos (COM · ejemplo)",
+      "planId": "demo-plan-COM",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-COM-9",
+      "code": "COM-009",
+      "name": "Seminario integrador (COM · ejemplo)",
+      "planId": "demo-plan-COM",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-COM-10",
+      "code": "COM-010",
+      "name": "Investigación aplicada (COM · ejemplo)",
+      "planId": "demo-plan-COM",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PED-1",
+      "code": "PED-001",
+      "name": "Fundamentos de la disciplina (PED · ejemplo)",
+      "planId": "demo-plan-PED",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PED-2",
+      "code": "PED-002",
+      "name": "Introducción a la carrera (PED · ejemplo)",
+      "planId": "demo-plan-PED",
+      "cycleId": "cy-1",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PED-3",
+      "code": "PED-003",
+      "name": "Comunicación y redacción (PED · ejemplo)",
+      "planId": "demo-plan-PED",
+      "cycleId": "cy-2",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PED-4",
+      "code": "PED-004",
+      "name": "Herramientas digitales (PED · ejemplo)",
+      "planId": "demo-plan-PED",
+      "cycleId": "cy-2",
+      "lab": true,
+      "labCost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PED-5",
+      "code": "PED-005",
+      "name": "Estadística aplicada (PED · ejemplo)",
+      "planId": "demo-plan-PED",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PED-6",
+      "code": "PED-006",
+      "name": "Metodología de la investigación (PED · ejemplo)",
+      "planId": "demo-plan-PED",
+      "cycleId": "cy-3",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PED-7",
+      "code": "PED-007",
+      "name": "Ética profesional (PED · ejemplo)",
+      "planId": "demo-plan-PED",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PED-8",
+      "code": "PED-008",
+      "name": "Gestión de proyectos (PED · ejemplo)",
+      "planId": "demo-plan-PED",
+      "cycleId": "cy-4",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PED-9",
+      "code": "PED-009",
+      "name": "Seminario integrador (PED · ejemplo)",
+      "planId": "demo-plan-PED",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-course-PED-10",
+      "code": "PED-010",
+      "name": "Investigación aplicada (PED · ejemplo)",
+      "planId": "demo-plan-PED",
+      "cycleId": "cy-5",
+      "lab": false,
+      "labCost": 0,
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enroll-1",
+      "planId": "plan-sistemas",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-8",
+      "count": 58,
+      "historicalCapacity": 30
+    },
+    {
+      "id": "enroll-2",
+      "planId": "plan-sistemas",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-7",
+      "count": 42,
+      "historicalCapacity": 30
+    },
+    {
+      "id": "demo-inscritos-ADM-1",
+      "planId": "demo-plan-ADM",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 35,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-ADM-2",
+      "planId": "demo-plan-ADM",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 42,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-ADM-3",
+      "planId": "demo-plan-ADM",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 49,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-MER-1",
+      "planId": "demo-plan-MER",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 36,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-MER-2",
+      "planId": "demo-plan-MER",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 43,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-MER-3",
+      "planId": "demo-plan-MER",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 50,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-CPA-1",
+      "planId": "demo-plan-CPA",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 37,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-CPA-2",
+      "planId": "demo-plan-CPA",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 44,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-CPA-3",
+      "planId": "demo-plan-CPA",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 51,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-DER-1",
+      "planId": "demo-plan-DER",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 38,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-DER-2",
+      "planId": "demo-plan-DER",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 45,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-DER-3",
+      "planId": "demo-plan-DER",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 52,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-PSI-1",
+      "planId": "demo-plan-PSI",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 39,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-PSI-2",
+      "planId": "demo-plan-PSI",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 46,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-PSI-3",
+      "planId": "demo-plan-PSI",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 53,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-IND-1",
+      "planId": "demo-plan-IND",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 40,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-IND-2",
+      "planId": "demo-plan-IND",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 47,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-IND-3",
+      "planId": "demo-plan-IND",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 54,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-ARQ-1",
+      "planId": "demo-plan-ARQ",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 41,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-ARQ-2",
+      "planId": "demo-plan-ARQ",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 48,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-ARQ-3",
+      "planId": "demo-plan-ARQ",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 55,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-ENF-1",
+      "planId": "demo-plan-ENF",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 42,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-ENF-2",
+      "planId": "demo-plan-ENF",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 49,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-ENF-3",
+      "planId": "demo-plan-ENF",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 56,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-TRA-1",
+      "planId": "demo-plan-TRA",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 43,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-TRA-2",
+      "planId": "demo-plan-TRA",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 50,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-TRA-3",
+      "planId": "demo-plan-TRA",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 57,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-TUR-1",
+      "planId": "demo-plan-TUR",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 44,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-TUR-2",
+      "planId": "demo-plan-TUR",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 51,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-TUR-3",
+      "planId": "demo-plan-TUR",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 58,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-COM-1",
+      "planId": "demo-plan-COM",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 45,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-COM-2",
+      "planId": "demo-plan-COM",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 52,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-COM-3",
+      "planId": "demo-plan-COM",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 59,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-PED-1",
+      "planId": "demo-plan-PED",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-1",
+      "count": 46,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-PED-2",
+      "planId": "demo-plan-PED",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-2",
+      "count": 53,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-inscritos-PED-3",
+      "planId": "demo-plan-PED",
+      "periodId": "period-2026-2",
+      "cycleId": "cy-3",
+      "count": 60,
+      "historicalCapacity": 30,
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "plannings": [
+    {
+      "id": "planning-1",
+      "code": "PL-2026-002",
+      "planId": "plan-sistemas",
+      "periodId": "period-2026-2",
+      "status": "borrador",
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "updatedAt": "2026-10-01T09:00:00.000Z",
+      "createdBy": "u-coord"
+    },
+    {
+      "id": "demo-planning-ADM",
+      "code": "PL-DEMO-ADM-2026",
+      "planId": "demo-plan-ADM",
+      "periodId": "period-2026-2",
+      "status": "borrador",
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "updatedAt": "2026-10-01T09:00:00.000Z",
+      "createdBy": "u-coord",
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-planning-MER",
+      "code": "PL-DEMO-MER-2026",
+      "planId": "demo-plan-MER",
+      "periodId": "period-2026-2",
+      "status": "borrador",
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "updatedAt": "2026-10-01T09:00:00.000Z",
+      "createdBy": "u-coord",
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-planning-CPA",
+      "code": "PL-DEMO-CPA-2026",
+      "planId": "demo-plan-CPA",
+      "periodId": "period-2026-2",
+      "status": "borrador",
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "updatedAt": "2026-10-01T09:00:00.000Z",
+      "createdBy": "u-coord",
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-planning-DER",
+      "code": "PL-DEMO-DER-2026",
+      "planId": "demo-plan-DER",
+      "periodId": "period-2026-2",
+      "status": "borrador",
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "updatedAt": "2026-10-01T09:00:00.000Z",
+      "createdBy": "u-coord",
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-planning-PSI",
+      "code": "PL-DEMO-PSI-2026",
+      "planId": "demo-plan-PSI",
+      "periodId": "period-2026-2",
+      "status": "borrador",
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "updatedAt": "2026-10-01T09:00:00.000Z",
+      "createdBy": "u-coord",
+      "source": "demostracion"
+    }
+  ],
+  "sections": [
+    {
+      "id": "section-a",
+      "planningId": "planning-1",
+      "cycleId": "cy-8",
+      "code": "A",
+      "capacity": 30
+    },
+    {
+      "id": "section-b",
+      "planningId": "planning-1",
+      "cycleId": "cy-8",
+      "code": "B",
+      "capacity": 28
+    },
+    {
+      "id": "demo-section-ADM",
+      "planningId": "demo-planning-ADM",
+      "cycleId": "cy-1",
+      "code": "A",
+      "capacity": 30,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-section-MER",
+      "planningId": "demo-planning-MER",
+      "cycleId": "cy-1",
+      "code": "A",
+      "capacity": 30,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-section-CPA",
+      "planningId": "demo-planning-CPA",
+      "cycleId": "cy-1",
+      "code": "A",
+      "capacity": 30,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-section-DER",
+      "planningId": "demo-planning-DER",
+      "cycleId": "cy-1",
+      "code": "A",
+      "capacity": 30,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-section-PSI",
+      "planningId": "demo-planning-PSI",
+      "cycleId": "cy-1",
+      "code": "A",
+      "capacity": 30,
+      "source": "demostracion"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "asgn-1",
+      "planningId": "planning-1",
+      "sectionId": "section-a",
+      "courseId": "course-1",
+      "teacherId": "t-1",
+      "slotId": "slot-1",
+      "roomId": "room-1"
+    },
+    {
+      "id": "asgn-2",
+      "planningId": "planning-1",
+      "sectionId": "section-a",
+      "courseId": "course-2",
+      "teacherId": "t-2",
+      "slotId": "slot-2",
+      "roomId": "room-1"
+    },
+    {
+      "id": "asgn-3",
+      "planningId": "planning-1",
+      "sectionId": "section-a",
+      "courseId": "course-3",
+      "teacherId": "t-3",
+      "slotId": "slot-3",
+      "roomId": "room-1"
+    },
+    {
+      "id": "asgn-4",
+      "planningId": "planning-1",
+      "sectionId": "section-a",
+      "courseId": "course-4",
+      "teacherId": "t-4",
+      "slotId": "slot-4",
+      "roomId": "room-1"
+    },
+    {
+      "id": "asgn-5",
+      "planningId": "planning-1",
+      "sectionId": "section-b",
+      "courseId": "course-1",
+      "teacherId": "t-5",
+      "slotId": "slot-1",
+      "roomId": "room-2"
+    },
+    {
+      "id": "asgn-6",
+      "planningId": "planning-1",
+      "sectionId": "section-b",
+      "courseId": "course-2",
+      "teacherId": "t-6",
+      "slotId": "slot-2",
+      "roomId": "room-2"
+    },
+    {
+      "id": "asgn-7",
+      "planningId": "planning-1",
+      "sectionId": "section-b",
+      "courseId": "course-3",
+      "teacherId": "t-7",
+      "slotId": "slot-3",
+      "roomId": "room-2"
+    },
+    {
+      "id": "asgn-8",
+      "planningId": "planning-1",
+      "sectionId": "section-b",
+      "courseId": "course-4",
+      "teacherId": "t-8",
+      "slotId": "slot-4",
+      "roomId": "room-2"
+    },
+    {
+      "id": "demo-assignment-ADM",
+      "planningId": "demo-planning-ADM",
+      "sectionId": "demo-section-ADM",
+      "courseId": "demo-course-ADM-1",
+      "teacherId": "demo-prof-1",
+      "slotId": "demo-slot-7-0700-0900",
+      "roomId": "demo-room-1",
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-assignment-MER",
+      "planningId": "demo-planning-MER",
+      "sectionId": "demo-section-MER",
+      "courseId": "demo-course-MER-1",
+      "teacherId": "demo-prof-2",
+      "slotId": "demo-slot-7-0700-0900",
+      "roomId": "demo-room-1",
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-assignment-CPA",
+      "planningId": "demo-planning-CPA",
+      "sectionId": "demo-section-CPA",
+      "courseId": "demo-course-CPA-1",
+      "teacherId": "demo-prof-3",
+      "slotId": "demo-slot-7-0700-0900",
+      "roomId": "demo-room-1",
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-assignment-DER",
+      "planningId": "demo-planning-DER",
+      "sectionId": "demo-section-DER",
+      "courseId": "demo-course-DER-1",
+      "teacherId": "demo-prof-4",
+      "slotId": "demo-slot-7-0700-0900",
+      "roomId": "demo-room-1",
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-assignment-PSI",
+      "planningId": "demo-planning-PSI",
+      "sectionId": "demo-section-PSI",
+      "courseId": "demo-course-PSI-1",
+      "teacherId": "demo-prof-5",
+      "slotId": "demo-slot-7-0700-0900",
+      "roomId": "demo-room-1",
+      "source": "demostracion"
+    }
+  ],
+  "reviews": [],
+  "reports": [],
+  "authorizations": [],
+  "messages": [
+    {
+      "id": "msg-example",
+      "planningId": "planning-1",
+      "teacherId": "t-1",
+      "senderId": "u-coord",
+      "at": "2026-10-01T09:10:00.000Z",
+      "body": "Buen día. Por favor revisa tu horario propuesto y confirma si tienes disponibilidad."
+    }
+  ],
+  "notifications": [
+    {
+      "id": "noti-example",
+      "userId": "u-doc1",
+      "title": "Bienvenido a UMG Plan",
+      "body": "Revisa tu planificación de demostración cuando se envíe a revisión docente.",
+      "link": "/mis-asignaciones",
+      "at": "2026-10-01T09:10:00.000Z",
+      "read": false
+    }
+  ],
+  "audit": [
+    {
+      "id": "evt-1",
+      "at": "2026-10-01T09:00:00.000Z",
+      "userId": "u-coord",
+      "action": "Inicialización del escenario de demostración y catálogos históricos de referencia"
+    }
+  ],
+  "institutions": [
+    {
+      "id": "inst-umg",
+      "code": "UMG",
+      "name": "Universidad Mariano Gálvez de Guatemala",
+      "abbreviation": "UMG",
+      "address": "Guatemala",
+      "active": true,
+      "source": "institucional"
+    }
+  ],
+  "centers": [
+    {
+      "id": "cent-vn",
+      "code": "VN",
+      "name": "Centro Universitario Villa Nueva",
+      "institutionId": "inst-umg",
+      "location": "Villa Nueva, Guatemala",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "cent-port",
+      "code": "PORT",
+      "name": "Centro Universitario Portales",
+      "institutionId": "inst-umg",
+      "location": "Guatemala",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "demo-cent-norte",
+      "code": "N-PRUEBA",
+      "name": "Sede de prueba Norte (no oficial)",
+      "institutionId": "inst-umg",
+      "location": "Zona Norte — ejemplo",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cent-sur",
+      "code": "S-PRUEBA",
+      "name": "Sede de prueba Sur (no oficial)",
+      "institutionId": "inst-umg",
+      "location": "Zona Sur — ejemplo",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cent-occ",
+      "code": "O-PRUEBA",
+      "name": "Sede de prueba Occidente (no oficial)",
+      "institutionId": "inst-umg",
+      "location": "Occidente — ejemplo",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-cent-oriente",
+      "code": "E-PRUEBA",
+      "name": "Sede de prueba Oriente (no oficial)",
+      "institutionId": "inst-umg",
+      "location": "Oriente — ejemplo",
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "careers": [
+    {
+      "id": "car-vn",
+      "code": "ISC",
+      "name": "Ingeniería en Sistemas de la Información y Ciencias de la Computación",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "car-port",
+      "code": "9989/2013",
+      "name": "Ingeniería en Sistemas de Información y Ciencias de la Computación",
+      "centerId": "cent-port",
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "demo-career-ADM",
+      "code": "ADM",
+      "name": "Administración de Empresas",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-MER",
+      "code": "MER",
+      "name": "Mercadotecnia",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-CPA",
+      "code": "CPA",
+      "name": "Contaduría Pública y Auditoría",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-DER",
+      "code": "DER",
+      "name": "Ciencias Jurídicas y Sociales",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-PSI",
+      "code": "PSI",
+      "name": "Psicología",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-IND",
+      "code": "IND",
+      "name": "Ingeniería Industrial",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-ARQ",
+      "code": "ARQ",
+      "name": "Arquitectura",
+      "centerId": "demo-cent-norte",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-ENF",
+      "code": "ENF",
+      "name": "Enfermería",
+      "centerId": "demo-cent-sur",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-TRA",
+      "code": "TRA",
+      "name": "Trabajo Social",
+      "centerId": "demo-cent-occ",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-TUR",
+      "code": "TUR",
+      "name": "Administración Turística",
+      "centerId": "demo-cent-oriente",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-COM",
+      "code": "COM",
+      "name": "Comunicación Social",
+      "centerId": "cent-port",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-career-PED",
+      "code": "PED",
+      "name": "Pedagogía",
+      "centerId": "cent-port",
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "modalities": [
+    {
+      "id": "mod-sab",
+      "code": "SAB",
+      "name": "Plan Sábado",
+      "description": "Cursos concentrados en sábado",
+      "active": true
+    },
+    {
+      "id": "mod-dia",
+      "code": "DIARIO",
+      "name": "Plan Diario",
+      "description": "Jornada regular (referencial)",
+      "active": true
+    },
+    {
+      "id": "mod-ves",
+      "code": "VES",
+      "name": "Jornada Vespertina",
+      "description": "Tarde — horario referencial",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "mod-noc",
+      "code": "NOC",
+      "name": "Plan Nocturno",
+      "description": "Tarde/noche — horario referencial",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "mod-dom",
+      "code": "DOM",
+      "name": "Plan Domingo",
+      "description": "Domingos — modalidad de prueba",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "mod-fin",
+      "code": "FDS",
+      "name": "Plan Fin de Semana",
+      "description": "Sábados y domingos — prueba",
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "authorityTypes": [
+    {
+      "id": "auttype-coord",
+      "code": "COORD",
+      "name": "Coordinación de Carrera",
+      "description": "Responsable de elaborar el plan",
+      "active": true
+    },
+    {
+      "id": "auttype-director",
+      "code": "DIRECTOR",
+      "name": "Dirección de Sede / Campus",
+      "description": "Revisión y decisión externa",
+      "active": true
+    },
+    {
+      "id": "auttype-decano",
+      "code": "DECANO",
+      "name": "Decanato",
+      "description": "Espacio de visto bueno institucional",
+      "active": true
+    },
+    {
+      "id": "auttype-general",
+      "code": "DGCU",
+      "name": "Dirección General de Centros Universitarios",
+      "description": "Espacio de visto bueno institucional",
+      "active": true
+    }
+  ],
+  "authorities": [
+    {
+      "id": "aut-coord",
+      "code": "COORD-VN",
+      "name": "Coordinador por confirmar (demo)",
+      "typeId": "auttype-coord",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "aut-director",
+      "code": "DIR-VN",
+      "name": "Director por confirmar (demo)",
+      "typeId": "auttype-director",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "aut-decano",
+      "code": "DEC-VN",
+      "name": "Decano por confirmar (demo)",
+      "typeId": "auttype-decano",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "aut-general",
+      "code": "DGCU-VN",
+      "name": "Dirección General por confirmar (demo)",
+      "typeId": "auttype-general",
+      "centerId": "cent-vn",
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "planningAuthorities": [
+    {
+      "id": "pa-1",
+      "planningId": "planning-1",
+      "authorityId": "aut-coord",
+      "function": "Visto bueno Coordinación",
+      "active": true
+    },
+    {
+      "id": "pa-2",
+      "planningId": "planning-1",
+      "authorityId": "aut-director",
+      "function": "Decisión externa del Director",
+      "active": true
+    },
+    {
+      "id": "pa-3",
+      "planningId": "planning-1",
+      "authorityId": "aut-decano",
+      "function": "Visto bueno Decanato",
+      "active": true
+    },
+    {
+      "id": "pa-4",
+      "planningId": "planning-1",
+      "authorityId": "aut-general",
+      "function": "Visto bueno Dirección General",
+      "active": true
+    }
+  ],
+  "coordinationSlots": [
+    {
+      "id": "coord-slot-1",
+      "coordinatorId": "u-coord",
+      "periodId": "period-2026-2",
+      "slotId": "slot-1",
+      "notes": "Horario sugerido de coordinación (demostración)",
+      "active": true
+    }
+  ],
+  "curriculum": [
+    {
+      "id": "pc-course-1",
+      "planId": "plan-sistemas",
+      "courseId": "course-1",
+      "cycleId": "cy-8",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-course-2",
+      "planId": "plan-sistemas",
+      "courseId": "course-2",
+      "cycleId": "cy-8",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-course-3",
+      "planId": "plan-sistemas",
+      "courseId": "course-3",
+      "cycleId": "cy-8",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-course-4",
+      "planId": "plan-sistemas",
+      "courseId": "course-4",
+      "cycleId": "cy-8",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-course-5",
+      "planId": "plan-sistemas",
+      "courseId": "course-5",
+      "cycleId": "cy-7",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-course-6",
+      "planId": "plan-sistemas",
+      "courseId": "course-6",
+      "cycleId": "cy-7",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-course-7",
+      "planId": "plan-sistemas",
+      "courseId": "course-7",
+      "cycleId": "cy-7",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-course-8",
+      "planId": "plan-sistemas",
+      "courseId": "course-8",
+      "cycleId": "cy-7",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-course-9",
+      "planId": "plan-sistemas",
+      "courseId": "course-9",
+      "cycleId": "cy-9",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-course-10",
+      "planId": "plan-sistemas",
+      "courseId": "course-10",
+      "cycleId": "cy-9",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-course-11",
+      "planId": "plan-sistemas",
+      "courseId": "course-11",
+      "cycleId": "cy-8",
+      "order": 11,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "pc-ref-course-006",
+      "planId": "plan-portales",
+      "courseId": "ref-course-006",
+      "cycleId": "cy-2",
+      "order": 12,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-007",
+      "planId": "plan-portales",
+      "courseId": "ref-course-007",
+      "cycleId": "cy-2",
+      "order": 13,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-008",
+      "planId": "plan-portales",
+      "courseId": "ref-course-008",
+      "cycleId": "cy-2",
+      "order": 14,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-009",
+      "planId": "plan-portales",
+      "courseId": "ref-course-009",
+      "cycleId": "cy-2",
+      "order": 15,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-010",
+      "planId": "plan-portales",
+      "courseId": "ref-course-010",
+      "cycleId": "cy-2",
+      "order": 16,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-016",
+      "planId": "plan-portales",
+      "courseId": "ref-course-016",
+      "cycleId": "cy-4",
+      "order": 17,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-017",
+      "planId": "plan-portales",
+      "courseId": "ref-course-017",
+      "cycleId": "cy-4",
+      "order": 18,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-018",
+      "planId": "plan-portales",
+      "courseId": "ref-course-018",
+      "cycleId": "cy-4",
+      "order": 19,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-019",
+      "planId": "plan-portales",
+      "courseId": "ref-course-019",
+      "cycleId": "cy-4",
+      "order": 20,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-020",
+      "planId": "plan-portales",
+      "courseId": "ref-course-020",
+      "cycleId": "cy-4",
+      "order": 21,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-026",
+      "planId": "plan-portales",
+      "courseId": "ref-course-026",
+      "cycleId": "cy-6",
+      "order": 22,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-027",
+      "planId": "plan-portales",
+      "courseId": "ref-course-027",
+      "cycleId": "cy-6",
+      "order": 23,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-028",
+      "planId": "plan-portales",
+      "courseId": "ref-course-028",
+      "cycleId": "cy-6",
+      "order": 24,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-029",
+      "planId": "plan-portales",
+      "courseId": "ref-course-029",
+      "cycleId": "cy-6",
+      "order": 25,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-030",
+      "planId": "plan-portales",
+      "courseId": "ref-course-030",
+      "cycleId": "cy-6",
+      "order": 26,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-036",
+      "planId": "plan-portales",
+      "courseId": "ref-course-036",
+      "cycleId": "cy-8",
+      "order": 27,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-037",
+      "planId": "plan-portales",
+      "courseId": "ref-course-037",
+      "cycleId": "cy-8",
+      "order": 28,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-038",
+      "planId": "plan-portales",
+      "courseId": "ref-course-038",
+      "cycleId": "cy-8",
+      "order": 29,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-039",
+      "planId": "plan-portales",
+      "courseId": "ref-course-039",
+      "cycleId": "cy-8",
+      "order": 30,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-040",
+      "planId": "plan-portales",
+      "courseId": "ref-course-040",
+      "cycleId": "cy-8",
+      "order": 31,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-046",
+      "planId": "plan-portales",
+      "courseId": "ref-course-046",
+      "cycleId": "cy-10",
+      "order": 32,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-047",
+      "planId": "plan-portales",
+      "courseId": "ref-course-047",
+      "cycleId": "cy-10",
+      "order": 33,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-048",
+      "planId": "plan-portales",
+      "courseId": "ref-course-048",
+      "cycleId": "cy-10",
+      "order": 34,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-049",
+      "planId": "plan-portales",
+      "courseId": "ref-course-049",
+      "cycleId": "cy-10",
+      "order": 35,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "pc-ref-course-050",
+      "planId": "plan-portales",
+      "courseId": "ref-course-050",
+      "cycleId": "cy-10",
+      "order": 36,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "demo-pensum-ADM-1",
+      "planId": "demo-plan-ADM",
+      "courseId": "demo-course-ADM-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ADM-2",
+      "planId": "demo-plan-ADM",
+      "courseId": "demo-course-ADM-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ADM-3",
+      "planId": "demo-plan-ADM",
+      "courseId": "demo-course-ADM-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ADM-4",
+      "planId": "demo-plan-ADM",
+      "courseId": "demo-course-ADM-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ADM-5",
+      "planId": "demo-plan-ADM",
+      "courseId": "demo-course-ADM-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ADM-6",
+      "planId": "demo-plan-ADM",
+      "courseId": "demo-course-ADM-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ADM-7",
+      "planId": "demo-plan-ADM",
+      "courseId": "demo-course-ADM-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ADM-8",
+      "planId": "demo-plan-ADM",
+      "courseId": "demo-course-ADM-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ADM-9",
+      "planId": "demo-plan-ADM",
+      "courseId": "demo-course-ADM-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ADM-10",
+      "planId": "demo-plan-ADM",
+      "courseId": "demo-course-ADM-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-MER-1",
+      "planId": "demo-plan-MER",
+      "courseId": "demo-course-MER-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-MER-2",
+      "planId": "demo-plan-MER",
+      "courseId": "demo-course-MER-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-MER-3",
+      "planId": "demo-plan-MER",
+      "courseId": "demo-course-MER-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-MER-4",
+      "planId": "demo-plan-MER",
+      "courseId": "demo-course-MER-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-MER-5",
+      "planId": "demo-plan-MER",
+      "courseId": "demo-course-MER-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-MER-6",
+      "planId": "demo-plan-MER",
+      "courseId": "demo-course-MER-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-MER-7",
+      "planId": "demo-plan-MER",
+      "courseId": "demo-course-MER-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-MER-8",
+      "planId": "demo-plan-MER",
+      "courseId": "demo-course-MER-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-MER-9",
+      "planId": "demo-plan-MER",
+      "courseId": "demo-course-MER-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-MER-10",
+      "planId": "demo-plan-MER",
+      "courseId": "demo-course-MER-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-CPA-1",
+      "planId": "demo-plan-CPA",
+      "courseId": "demo-course-CPA-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-CPA-2",
+      "planId": "demo-plan-CPA",
+      "courseId": "demo-course-CPA-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-CPA-3",
+      "planId": "demo-plan-CPA",
+      "courseId": "demo-course-CPA-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-CPA-4",
+      "planId": "demo-plan-CPA",
+      "courseId": "demo-course-CPA-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-CPA-5",
+      "planId": "demo-plan-CPA",
+      "courseId": "demo-course-CPA-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-CPA-6",
+      "planId": "demo-plan-CPA",
+      "courseId": "demo-course-CPA-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-CPA-7",
+      "planId": "demo-plan-CPA",
+      "courseId": "demo-course-CPA-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-CPA-8",
+      "planId": "demo-plan-CPA",
+      "courseId": "demo-course-CPA-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-CPA-9",
+      "planId": "demo-plan-CPA",
+      "courseId": "demo-course-CPA-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-CPA-10",
+      "planId": "demo-plan-CPA",
+      "courseId": "demo-course-CPA-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-DER-1",
+      "planId": "demo-plan-DER",
+      "courseId": "demo-course-DER-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-DER-2",
+      "planId": "demo-plan-DER",
+      "courseId": "demo-course-DER-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-DER-3",
+      "planId": "demo-plan-DER",
+      "courseId": "demo-course-DER-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-DER-4",
+      "planId": "demo-plan-DER",
+      "courseId": "demo-course-DER-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-DER-5",
+      "planId": "demo-plan-DER",
+      "courseId": "demo-course-DER-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-DER-6",
+      "planId": "demo-plan-DER",
+      "courseId": "demo-course-DER-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-DER-7",
+      "planId": "demo-plan-DER",
+      "courseId": "demo-course-DER-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-DER-8",
+      "planId": "demo-plan-DER",
+      "courseId": "demo-course-DER-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-DER-9",
+      "planId": "demo-plan-DER",
+      "courseId": "demo-course-DER-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-DER-10",
+      "planId": "demo-plan-DER",
+      "courseId": "demo-course-DER-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PSI-1",
+      "planId": "demo-plan-PSI",
+      "courseId": "demo-course-PSI-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PSI-2",
+      "planId": "demo-plan-PSI",
+      "courseId": "demo-course-PSI-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PSI-3",
+      "planId": "demo-plan-PSI",
+      "courseId": "demo-course-PSI-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PSI-4",
+      "planId": "demo-plan-PSI",
+      "courseId": "demo-course-PSI-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PSI-5",
+      "planId": "demo-plan-PSI",
+      "courseId": "demo-course-PSI-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PSI-6",
+      "planId": "demo-plan-PSI",
+      "courseId": "demo-course-PSI-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PSI-7",
+      "planId": "demo-plan-PSI",
+      "courseId": "demo-course-PSI-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PSI-8",
+      "planId": "demo-plan-PSI",
+      "courseId": "demo-course-PSI-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PSI-9",
+      "planId": "demo-plan-PSI",
+      "courseId": "demo-course-PSI-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PSI-10",
+      "planId": "demo-plan-PSI",
+      "courseId": "demo-course-PSI-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-IND-1",
+      "planId": "demo-plan-IND",
+      "courseId": "demo-course-IND-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-IND-2",
+      "planId": "demo-plan-IND",
+      "courseId": "demo-course-IND-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-IND-3",
+      "planId": "demo-plan-IND",
+      "courseId": "demo-course-IND-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-IND-4",
+      "planId": "demo-plan-IND",
+      "courseId": "demo-course-IND-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-IND-5",
+      "planId": "demo-plan-IND",
+      "courseId": "demo-course-IND-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-IND-6",
+      "planId": "demo-plan-IND",
+      "courseId": "demo-course-IND-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-IND-7",
+      "planId": "demo-plan-IND",
+      "courseId": "demo-course-IND-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-IND-8",
+      "planId": "demo-plan-IND",
+      "courseId": "demo-course-IND-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-IND-9",
+      "planId": "demo-plan-IND",
+      "courseId": "demo-course-IND-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-IND-10",
+      "planId": "demo-plan-IND",
+      "courseId": "demo-course-IND-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ARQ-1",
+      "planId": "demo-plan-ARQ",
+      "courseId": "demo-course-ARQ-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ARQ-2",
+      "planId": "demo-plan-ARQ",
+      "courseId": "demo-course-ARQ-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ARQ-3",
+      "planId": "demo-plan-ARQ",
+      "courseId": "demo-course-ARQ-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ARQ-4",
+      "planId": "demo-plan-ARQ",
+      "courseId": "demo-course-ARQ-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ARQ-5",
+      "planId": "demo-plan-ARQ",
+      "courseId": "demo-course-ARQ-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ARQ-6",
+      "planId": "demo-plan-ARQ",
+      "courseId": "demo-course-ARQ-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ARQ-7",
+      "planId": "demo-plan-ARQ",
+      "courseId": "demo-course-ARQ-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ARQ-8",
+      "planId": "demo-plan-ARQ",
+      "courseId": "demo-course-ARQ-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ARQ-9",
+      "planId": "demo-plan-ARQ",
+      "courseId": "demo-course-ARQ-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ARQ-10",
+      "planId": "demo-plan-ARQ",
+      "courseId": "demo-course-ARQ-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ENF-1",
+      "planId": "demo-plan-ENF",
+      "courseId": "demo-course-ENF-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ENF-2",
+      "planId": "demo-plan-ENF",
+      "courseId": "demo-course-ENF-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ENF-3",
+      "planId": "demo-plan-ENF",
+      "courseId": "demo-course-ENF-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ENF-4",
+      "planId": "demo-plan-ENF",
+      "courseId": "demo-course-ENF-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ENF-5",
+      "planId": "demo-plan-ENF",
+      "courseId": "demo-course-ENF-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ENF-6",
+      "planId": "demo-plan-ENF",
+      "courseId": "demo-course-ENF-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ENF-7",
+      "planId": "demo-plan-ENF",
+      "courseId": "demo-course-ENF-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ENF-8",
+      "planId": "demo-plan-ENF",
+      "courseId": "demo-course-ENF-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ENF-9",
+      "planId": "demo-plan-ENF",
+      "courseId": "demo-course-ENF-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-ENF-10",
+      "planId": "demo-plan-ENF",
+      "courseId": "demo-course-ENF-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TRA-1",
+      "planId": "demo-plan-TRA",
+      "courseId": "demo-course-TRA-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TRA-2",
+      "planId": "demo-plan-TRA",
+      "courseId": "demo-course-TRA-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TRA-3",
+      "planId": "demo-plan-TRA",
+      "courseId": "demo-course-TRA-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TRA-4",
+      "planId": "demo-plan-TRA",
+      "courseId": "demo-course-TRA-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TRA-5",
+      "planId": "demo-plan-TRA",
+      "courseId": "demo-course-TRA-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TRA-6",
+      "planId": "demo-plan-TRA",
+      "courseId": "demo-course-TRA-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TRA-7",
+      "planId": "demo-plan-TRA",
+      "courseId": "demo-course-TRA-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TRA-8",
+      "planId": "demo-plan-TRA",
+      "courseId": "demo-course-TRA-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TRA-9",
+      "planId": "demo-plan-TRA",
+      "courseId": "demo-course-TRA-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TRA-10",
+      "planId": "demo-plan-TRA",
+      "courseId": "demo-course-TRA-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TUR-1",
+      "planId": "demo-plan-TUR",
+      "courseId": "demo-course-TUR-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TUR-2",
+      "planId": "demo-plan-TUR",
+      "courseId": "demo-course-TUR-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TUR-3",
+      "planId": "demo-plan-TUR",
+      "courseId": "demo-course-TUR-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TUR-4",
+      "planId": "demo-plan-TUR",
+      "courseId": "demo-course-TUR-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TUR-5",
+      "planId": "demo-plan-TUR",
+      "courseId": "demo-course-TUR-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TUR-6",
+      "planId": "demo-plan-TUR",
+      "courseId": "demo-course-TUR-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TUR-7",
+      "planId": "demo-plan-TUR",
+      "courseId": "demo-course-TUR-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TUR-8",
+      "planId": "demo-plan-TUR",
+      "courseId": "demo-course-TUR-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TUR-9",
+      "planId": "demo-plan-TUR",
+      "courseId": "demo-course-TUR-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-TUR-10",
+      "planId": "demo-plan-TUR",
+      "courseId": "demo-course-TUR-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-COM-1",
+      "planId": "demo-plan-COM",
+      "courseId": "demo-course-COM-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-COM-2",
+      "planId": "demo-plan-COM",
+      "courseId": "demo-course-COM-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-COM-3",
+      "planId": "demo-plan-COM",
+      "courseId": "demo-course-COM-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-COM-4",
+      "planId": "demo-plan-COM",
+      "courseId": "demo-course-COM-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-COM-5",
+      "planId": "demo-plan-COM",
+      "courseId": "demo-course-COM-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-COM-6",
+      "planId": "demo-plan-COM",
+      "courseId": "demo-course-COM-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-COM-7",
+      "planId": "demo-plan-COM",
+      "courseId": "demo-course-COM-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-COM-8",
+      "planId": "demo-plan-COM",
+      "courseId": "demo-course-COM-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-COM-9",
+      "planId": "demo-plan-COM",
+      "courseId": "demo-course-COM-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-COM-10",
+      "planId": "demo-plan-COM",
+      "courseId": "demo-course-COM-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PED-1",
+      "planId": "demo-plan-PED",
+      "courseId": "demo-course-PED-1",
+      "cycleId": "cy-1",
+      "order": 1,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PED-2",
+      "planId": "demo-plan-PED",
+      "courseId": "demo-course-PED-2",
+      "cycleId": "cy-1",
+      "order": 2,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PED-3",
+      "planId": "demo-plan-PED",
+      "courseId": "demo-course-PED-3",
+      "cycleId": "cy-2",
+      "order": 3,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PED-4",
+      "planId": "demo-plan-PED",
+      "courseId": "demo-course-PED-4",
+      "cycleId": "cy-2",
+      "order": 4,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PED-5",
+      "planId": "demo-plan-PED",
+      "courseId": "demo-course-PED-5",
+      "cycleId": "cy-3",
+      "order": 5,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PED-6",
+      "planId": "demo-plan-PED",
+      "courseId": "demo-course-PED-6",
+      "cycleId": "cy-3",
+      "order": 6,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PED-7",
+      "planId": "demo-plan-PED",
+      "courseId": "demo-course-PED-7",
+      "cycleId": "cy-4",
+      "order": 7,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PED-8",
+      "planId": "demo-plan-PED",
+      "courseId": "demo-course-PED-8",
+      "cycleId": "cy-4",
+      "order": 8,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PED-9",
+      "planId": "demo-plan-PED",
+      "courseId": "demo-course-PED-9",
+      "cycleId": "cy-5",
+      "order": 9,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-pensum-PED-10",
+      "planId": "demo-plan-PED",
+      "courseId": "demo-course-PED-10",
+      "cycleId": "cy-5",
+      "order": 10,
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "costHistory": [
+    {
+      "id": "cost-course-3",
+      "courseId": "course-3",
+      "effectiveDate": "2026-01-01",
+      "cost": 100,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "cost-course-5",
+      "courseId": "course-5",
+      "effectiveDate": "2026-01-01",
+      "cost": 100,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "cost-course-6",
+      "courseId": "course-6",
+      "effectiveDate": "2026-01-01",
+      "cost": 100,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "cost-ref-course-008",
+      "courseId": "ref-course-008",
+      "effectiveDate": "2025-01-01",
+      "cost": 110,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "cost-ref-course-017",
+      "courseId": "ref-course-017",
+      "effectiveDate": "2025-01-01",
+      "cost": 110,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "cost-ref-course-027",
+      "courseId": "ref-course-027",
+      "effectiveDate": "2025-01-01",
+      "cost": 110,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "cost-ref-course-036",
+      "courseId": "ref-course-036",
+      "effectiveDate": "2025-01-01",
+      "cost": 110,
+      "active": true,
+      "source": "documento-base-2025"
+    },
+    {
+      "id": "demo-costo-ADM-4",
+      "courseId": "demo-course-ADM-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-MER-4",
+      "courseId": "demo-course-MER-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-CPA-4",
+      "courseId": "demo-course-CPA-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-DER-4",
+      "courseId": "demo-course-DER-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-PSI-4",
+      "courseId": "demo-course-PSI-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-IND-4",
+      "courseId": "demo-course-IND-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-ARQ-4",
+      "courseId": "demo-course-ARQ-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-ENF-4",
+      "courseId": "demo-course-ENF-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-TRA-4",
+      "courseId": "demo-course-TRA-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-TUR-4",
+      "courseId": "demo-course-TUR-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-COM-4",
+      "courseId": "demo-course-COM-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    },
+    {
+      "id": "demo-costo-PED-4",
+      "courseId": "demo-course-PED-4",
+      "effectiveDate": "2026-01-01",
+      "cost": 85,
+      "active": true,
+      "source": "demostracion"
+    }
+  ],
+  "availability": [
+    {
+      "id": "disp-1",
+      "teacherId": "t-1",
+      "periodId": "period-2026-2",
+      "slotId": "slot-1",
+      "available": true,
+      "observation": "Disponibilidad de demostración; verificar antes de asignar",
+      "active": true
+    },
+    {
+      "id": "disp-2",
+      "teacherId": "t-2",
+      "periodId": "period-2026-2",
+      "slotId": "slot-2",
+      "available": true,
+      "observation": "Disponibilidad de demostración; verificar antes de asignar",
+      "active": true
+    },
+    {
+      "id": "disp-3",
+      "teacherId": "t-3",
+      "periodId": "period-2026-2",
+      "slotId": "slot-3",
+      "available": true,
+      "observation": "Disponibilidad de demostración; verificar antes de asignar",
+      "active": true
+    }
+  ],
+  "customRoles": [],
+  "passwordRequests": []
+}
