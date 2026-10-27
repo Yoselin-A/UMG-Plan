@@ -40,7 +40,7 @@ export function deleteEnrollment(db,planId,periodId,cycleId){
 }
 export function editCatalogSafe(db,type,old,newData){
  if(!old)return;
- const blocked={courses:['cycleId','planId'],sections:['cycleId'],studyPlans:['code','careerCode'],periods:['year','semester'],cycles:['number']};
+ const blocked={courses:['cycleId','planId'],sections:['cycleId'],studyPlans:['code','careerCode'],periods:['year'],cycles:['number']};
  const dependents={courses:db.assignments.some(a=>a.courseId===old.id),studyPlans:db.plannings.some(p=>p.planId===old.id),periods:db.plannings.some(p=>p.periodId===old.id),cycles:db.sections.some(s=>s.cycleId===old.id)};
  if(dependents[type] && (blocked[type]||[]).some(k=>String(old[k])!==String(newData[k])))throw Error('Este registro ya participa en una planificación. Para conservar la integridad, no cambies sus datos de identificación o estructura; crea uno nuevo.');
  if(type==='rooms'&&db.assignments.some(a=>a.roomId===old.id && Number(newData.capacity)<(db.sections.find(s=>s.id===a.sectionId)?.capacity||0)))throw Error('La nueva capacidad del salón es insuficiente para una sección existente.');

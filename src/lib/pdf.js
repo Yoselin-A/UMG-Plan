@@ -21,7 +21,8 @@ function renderPage(page,report,decision,sections,slots,number,total){
  const snap=report.snapshot;const sp=snap.studyPlan||{},pd=snap.period||{};
  page.rect(0,0,W,5,'navy');page.commands.push(`q 42 0 0 42 25 ${H-20-42} cm /Im1 Do Q`);
  page.text(76,26,'UNIVERSIDAD MARIANO GÁLVEZ DE GUATEMALA',11,true,'navy');
- page.text(644,26,sp.mode||'Plan Sábado',10,true,'navy');
+ page.text(644,26,sp.jornada?`Jornada: ${sp.jornada}`:(sp.mode||'Sin especificar'),9,true,'navy');
+ if(sp.jornada)page.text(644,40,`Modalidad: ${sp.mode||'Sin especificar'}`,8,false,'muted');
  page.text(76,43,`Código de carrera: ${sp.careerCode||'—'}    |    Centro universitario: ${sp.center||'—'}`,9);
  for(const [i,line] of wrap(`Carrera: ${sp.name||'—'}`,115,2).entries())page.text(76,58+i*12,line,9);
  page.text(25,84,`PROGRAMACIÓN ${String(pd.label||'SEMESTRAL').toUpperCase()}`,13,true,'navy');

@@ -18,6 +18,10 @@ export const getReviews = (db,planningId) => {
   const ids = new Set(getPlanAssignments(db,planningId).map(a=>a.id));
   return db.reviews.filter(r=>ids.has(r.assignmentId));
 };
+export function teacherCoursesForPeriod(db,teacherId,periodId,excludeId='') {
+ const plans=new Set(db.plannings.filter(p=>p.periodId===periodId).map(p=>p.id));
+ return new Set(db.assignments.filter(a=>a.id!==excludeId&&a.teacherId===teacherId&&plans.has(a.planningId)).map(a=>a.courseId).filter(Boolean));
+}
 export function checkAssignment(db, planningId, candidate, excludeId='') {
   const reasons=[];
   const planning=db.plannings.find(p=>p.id===planningId);
@@ -37,9 +41,9 @@ export function checkAssignment(db, planningId, candidate, excludeId='') {
   const curr=db.assignments.filter(a=>a.id!==excludeId);
   const samePlan=curr.filter(a=>a.planningId===planningId);
   if(samePlan.some(a=>a.sectionId===candidate.sectionId && a.courseId===candidate.courseId)) reasons.push('Este curso ya está asignado a esa sección.');
-  if(samePlan.some(a=>a.sectionId===candidate.sectionId && a.teacherId===candidate.teacherId)) reasons.push('R2: Un profesor no puede impartir más de un curso en la misma sección.');
   const samePeriod=curr.filter(a=>db.plannings.some(p=>p.id===a.planningId && p.periodId===planning.periodId));
-  if(samePeriod.filter(a=>a.teacherId===candidate.teacherId).length>=4) reasons.push('R1: El docente ya tiene cuatro asignaciones en este semestre.');
+  const teacherCourses=teacherCoursesForPeriod(db,candidate.teacherId,planning.periodId,excludeId);
+  if(candidate.courseId&&!teacherCourses.has(candidate.courseId)&&teacherCourses.size>=4) reasons.push('R1: El docente ya tiene cuatro cursos distintos en este período.');
   if(slot){
     for(const assignment of samePeriod){
       const occupied=db.slots.find(s=>s.id===assignment.slotId);

@@ -11,9 +11,24 @@ const assertThrows=(f,re)=>assert.throws(f,re);
 test('datos iniciales del modelo SP-II',()=>{const db=reset();for(const key of ['users','teachers','studyPlans','cycles','periods','rooms','slots','courses','enrollments','plannings','sections','assignments','reviews','reports','authorizations','messages','notifications','audit'])assert(Array.isArray(db[key]),key)});
 test('datos de ejemplo consistentes',()=>{const db=reset();assert.deepEqual(validatePlanning(db,'planning-1'),[]);});
 test('rechazar docente sin identificador',()=>{const db=reset();const c=db.assignments[0];assert(checkAssignment(db,'planning-1',{...c,teacherId:''}).length>0)});
-test('R2 impide dos cursos profesor en misma sección',()=>{const db=reset();const x={planningId:'planning-1',sectionId:'section-a',courseId:'course-3',teacherId:'t-1',slotId:'slot-4',roomId:'room-3'};assert(checkAssignment(db,'planning-1',x).some(s=>s.includes('R2')))});
+test('un docente puede impartir varios cursos en la misma sección sin cruces',()=>{
+ const db=reset();db.assignments=[{id:'primera',planningId:'planning-1',sectionId:'section-a',courseId:'course-1',teacherId:'t-1',slotId:'slot-1',roomId:'room-1'}];
+ const candidate={sectionId:'section-a',courseId:'course-2',teacherId:'t-1',slotId:'slot-4',roomId:'room-3'};
+ assert.deepEqual(checkAssignment(db,'planning-1',candidate),[]);
+ assert(checkAssignment(db,'planning-1',{...candidate,slotId:'slot-1'}).some(x=>x.includes('Cruce de horarios')));
+});
+test('el máximo de cuatro cuenta cursos distintos y no secciones',()=>{
+ const db=reset();db.assignments=[];
+ db.plannings.push({...db.plannings[0],id:'otra-planificacion'});
+ for(let i=1;i<=4;i++)db.assignments.push({id:'carga-'+i,planningId:i%2?'otra-planificacion':'planning-1',sectionId:'section-a',courseId:'course-'+i,teacherId:'t-1',slotId:'slot-1',roomId:'room-1'});
+ const candidate={sectionId:'section-b',courseId:'course-11',teacherId:'t-1',slotId:'slot-4',roomId:'room-3'};
+ assert(checkAssignment(db,'planning-1',candidate).some(x=>x.includes('cuatro cursos')));
+ assert(!checkAssignment(db,'planning-1',{...candidate,courseId:'course-1'}).some(x=>x.includes('cuatro cursos')));
+ assert(!checkAssignment(db,'planning-1',candidate,'carga-2').some(x=>x.includes('cuatro cursos')));
+ db.assignments.push({...db.assignments[1],id:'otra-seccion'});
+ assert(checkAssignment(db,'planning-1',candidate,'carga-2').some(x=>x.includes('cuatro cursos')));
+});
 test('R3 impide cruces de horario docente',()=>{const db=reset();db.slots.push({id:'superpuesto',day:'Sábado',start:'08:00',end:'10:00',active:true});const x={planningId:'planning-1',sectionId:'section-b',courseId:'course-4',teacherId:'t-1',slotId:'superpuesto',roomId:'room-4'};assert(checkAssignment(db,'planning-1',x).some(s=>s.includes('R3')))});
-test('R1 impide superar 4 asignaciones en el semestre',()=>{const db=reset();db.sections.push({id:'section-c',planningId:'planning-1',cycleId:'cy-8',code:'C',capacity:20});db.assignments.push({id:'new1',planningId:'planning-1',sectionId:'section-c',courseId:'course-4',teacherId:'t-1',slotId:'slot-4',roomId:'room-4'},{id:'new2',planningId:'planning-1',sectionId:'section-c',courseId:'course-2',teacherId:'t-1',slotId:'slot-5',roomId:'room-4'},{id:'new3',planningId:'planning-1',sectionId:'section-c',courseId:'course-3',teacherId:'t-1',slotId:'slot-6',roomId:'room-4'});const candidate={sectionId:'section-b',courseId:'course-4',teacherId:'t-1',slotId:'slot-6',roomId:'room-3'};assert(checkAssignment(db,'planning-1',candidate).some(s=>s.includes('R1')))});
 test('impide doble reserva de salón',()=>{const db=reset();const x={sectionId:'section-b',courseId:'course-4',teacherId:'t-3',slotId:'slot-1',roomId:'room-1'};assert(checkAssignment(db,'planning-1',x).some(s=>s.includes('salón')))});
 test('impide asignación que supere capacidad de salón',()=>{const db=reset();const x={sectionId:'section-a',courseId:'course-3',teacherId:'t-3',slotId:'slot-4',roomId:'room-3'};db.rooms.find(x=>x.id==='room-3').capacity=20;assert(checkAssignment(db,'planning-1',x).some(s=>s.includes('capacidad')))});
 test('guarda asignación válida y la elimina',()=>{const db=reset();saveAssignment(db,'planning-1',{sectionId:'section-b',courseId:'course-11',teacherId:'t-3',slotId:'slot-5',roomId:'room-2'});const x=db.assignments.at(-1);assert.equal(x.teacherId,'t-3');removeAssignment(db,'planning-1',x.id);assert(!db.assignments.some(a=>a.id===x.id))});

@@ -1,3 +1,15 @@
+# UMG Plan — frontend + backend con SQL Server
+
+Backend implementado y conectado a la copia local **UMGPlan_Dev**. Consulta [docs/BACKEND.md](docs/BACKEND.md) para configuración, acceso, API, mapeo y pruebas.
+
+Inicio: `npm run setup` y `npm run dev`. Acceso inicial en `ACCESO_LOCAL.txt` (privado y excluido de Git).
+
+No se han creado commits ni se han subido cambios.
+
+---
+
+Los apartados siguientes son la documentación original del frontend y se conservan como antecedentes. Sus afirmaciones sobre localStorage, usuarios demo y backend futuro no describen la versión actual.
+
 # UMG Plan 4.2 — Solicitudes de contraseña y roles dinámicos
 
 **Nuevo:** en la pantalla de acceso, «¿Olvidaste tu contraseña? Solicitar cambio» abre un modal con contraseña propuesta y confirmación. El Administrador principal debe revisarla en **Solicitudes de contraseña**, desde su panel o el menú. También se puede solicitar el cambio desde Ajustes. El cambio **no** se aplica antes de la autorización.

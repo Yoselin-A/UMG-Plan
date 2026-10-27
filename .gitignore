@@ -3,6 +3,8 @@ dist/
 .env
 *.log
 .DS_Store
+ACCESO_LOCAL.txt
+.local/
 
 # Respaldos y datos reales institucionales
 *.bak

@@ -1,3 +1,5 @@
+> Documento histórico del frontend. Para el backend actual consulta [BACKEND.md](BACKEND.md).
+
 # UMG Plan — Preparación para integración con SP_II.bak
 
 ## Estado comprobado

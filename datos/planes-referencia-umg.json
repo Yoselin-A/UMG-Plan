@@ -1,0 +1,11 @@
+{
+  "nota": "Copias informativas de terceros. Las fechas corresponden al año indicado en cada pénsum; confirmar vigencia y datos oficiales con UMG.",
+  "planes": [
+    {"codigo":"5122","anio":2015,"carrera":"LICENCIATURA EN CIENCIAS DE LA ADMINISTRACIÓN","sede":"Villa Nueva","jornada":"Sábado","fuente":"https://www.studocu.com/gt/document/universidad-mariano-galvez-de-guatemala/administracion-de-empresas/pensum-5122-2015-nsks/119479507"},
+    {"codigo":"5154","anio":2014,"carrera":"LICENCIATURA EN CRIMINOLOGÍA Y POLÍTICA CRIMINAL","sede":"Villa Nueva","jornada":"Domingo","fuente":"https://es.scribd.com/document/984414760/Pensum-5154-2014"},
+    {"codigo":"5332","anio":2014,"carrera":"LICENCIATURA EN CONTADURÍA PÚBLICA Y AUDITORÍA","sede":"Villa Nueva","jornada":"Domingo","fuente":"https://www.scribd.com/document/627130362/Pensum-5332-2014"},
+    {"codigo":"2613","anio":2019,"carrera":"INGENIERÍA EN AGRONOMÍA","sede":"Quetzaltenango","jornada":"Plan mixto","fuente":"https://www.scribd.com/document/631944882/Pensum-2613-2019"},
+    {"codigo":"9110","anio":2014,"carrera":"LICENCIATURA EN ENFERMERÍA","sede":"Huehuetenango","jornada":"Diario vespertina","fuente":"https://es.scribd.com/document/720497052/Pensum-9110-2014"},
+    {"codigo":"1993","anio":2018,"carrera":"MAESTRÍA EN SEGURIDAD INFORMÁTICA","sede":"Jutiapa","jornada":"Sábado","fuente":"https://es.scribd.com/document/782352957/Pensum-1993-2018"}
+  ]
+}

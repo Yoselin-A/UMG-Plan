@@ -7,7 +7,28 @@ export function PageHeading({title,subtitle,actions}){return <div className="pag
 export function Button({children,variant='primary',className='',...rest}){return <button className={`btn btn-${variant} ${className}`} {...rest}>{children}</button>}
 export function Field({label,children,hint,required}){return <label className="field"><span className="field-label">{label}{required&&<b> *</b>}</span>{children}{hint&&<small>{hint}</small>}</label>}
 export function TextInput(props){return <input className="input" {...props}/>}
-export function Select({value,onChange,options,placeholder='Seleccione una opción',disabled,...props}){return <select className="input" value={value??''} onChange={e=>onChange?.(e.target.value)} disabled={disabled} {...props}><option value="">{placeholder}</option>{options.map(o=><option key={o.value} value={o.value}>{o.label}</option>)}</select>}
+export function Select({value,onChange,options,placeholder='Seleccione una opción',disabled,required=false,className='',style,...props}){
+ const [open,setOpen]=React.useState(false),[query,setQuery]=React.useState(null),[highlight,setHighlight]=React.useState(0);
+ const input=React.useRef(null),listId=React.useId();
+ const selected=options.find(o=>String(o.value)===String(value??''));
+ const text=query===null?(selected?.label??''):query;
+ const normalize=v=>String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('es');
+ const matches=query===null?options:options.filter(o=>normalize(o.label).includes(normalize(query.trim())));
+ const choices=placeholder!=null&&(!query||!query.trim())?[{value:'',label:placeholder},...matches]:matches;
+ React.useEffect(()=>{input.current?.setCustomValidity(query!==null?'Selecciona una opción de la lista.':required&&!value?'Selecciona una opción.':'')},[query,required,value]);
+ const choose=o=>{onChange?.(String(o.value));setQuery(null);setOpen(false);setHighlight(0);input.current?.focus()};
+ return <span className={`umg-combobox ${className}`} style={style} onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget)){setOpen(false);setQuery(null)}}}>
+  <input {...props} ref={input} className="input umg-combobox-input" role="combobox" aria-autocomplete="list" aria-expanded={open} aria-controls={listId} aria-activedescendant={open&&choices[highlight]?listId+'-'+highlight:undefined} aria-required={required||undefined} autoComplete="off" placeholder={placeholder||'Buscar una opción'} disabled={disabled} value={text} onFocus={()=>setOpen(true)} onChange={e=>{setQuery(e.target.value);setOpen(true);setHighlight(0)}} onKeyDown={e=>{if(e.key==='ArrowDown'){e.preventDefault();setOpen(true);setHighlight(h=>Math.min(h+1,choices.length-1))}else if(e.key==='ArrowUp'){e.preventDefault();setOpen(true);setHighlight(h=>Math.max(h-1,0))}else if(e.key==='Enter'&&open&&choices[highlight]){e.preventDefault();choose(choices[highlight])}else if(e.key==='Escape'){setOpen(false);setQuery(null)}}}/>
+  <button type="button" className="umg-combobox-toggle" aria-label="Mostrar opciones" tabIndex={-1} disabled={disabled} onMouseDown={e=>e.preventDefault()} onClick={()=>{setOpen(v=>!v);input.current?.focus()}}>▾</button>
+  {open&&!disabled&&<span className="umg-combobox-list" id={listId} role="listbox">{choices.length?choices.map((o,i)=><span id={listId+'-'+i} role="option" aria-selected={String(o.value)===String(value??'')} className={i===highlight?'umg-combobox-option highlighted':'umg-combobox-option'} key={String(o.value)} onMouseDown={e=>e.preventDefault()} onMouseEnter={()=>setHighlight(i)} onClick={()=>choose(o)}>{o.label}</span>):<span className="umg-combobox-empty">Sin resultados</span>}</span>}
+ </span>
+}
+export function SearchableSelect({children,value,onChange,...props}){
+ const optionText=node=>React.Children.toArray(node).map(child=>React.isValidElement(child)?optionText(child.props.children):String(child)).join('');
+ const items=React.Children.toArray(children).filter(React.isValidElement).map(o=>({value:o.props.value??optionText(o.props.children),label:optionText(o.props.children)}));
+ const empty=items.find(o=>o.value==='');
+ return <Select {...props} value={value} onChange={v=>onChange?.({target:{value:v}})} placeholder={empty?.label??null} options={items.filter(o=>o.value!=='')}/>;
+}
 export function Status({status}){const k=String(status||'').toLowerCase();return <span className={`status status-${k}`}>{STATES[status]||({confirmada:'Confirmada',inconveniente:'Inconveniente',pendiente:'Pendiente'}[status]||status||'—')}</span>}
 export function Empty({title='Sin registros',text='Aquí aparecerán los registros disponibles.'}){return <div className="empty"><Inbox size={30}/><strong>{title}</strong><p>{text}</p></div>}
 export function Alert({children,type='info'}){const Icon=type==='danger'?AlertTriangle:type==='success'?CheckCircle2:Info;return <div className={`alert alert-${type}`}><Icon size={17}/><div>{children}</div></div>}

@@ -59,11 +59,11 @@ export function enrichSeedForDemo(seed){
   put('studyPlans',{id:`demo-plan-${code}`,code:`${code}-2026-DEMO`,careerCode:code,name,center:centerName(centerId),mode:modeName(modalityId),university:uniName,institutionId:uni,centerId,careerId:`demo-career-${code}`,modalityId,active:true,source:demo});
  }
  // Extiende los años históricos de ensayo, períodos regulares y ciclos no semestrales.
- for(const year of [2024,2028,2029,2030])for(const n of [1,2])put('periods',{id:`demo-period-${year}-${n}`,label:`${n===1?'Primer':'Segundo'} semestre ${year}`,year,semester:n,termType:'Semestral',active:true,source:demo});
+ for(const year of [2024,2028,2029,2030])for(const n of [1,2])put('periods',{id:`demo-period-${year}-${n}`,label:`${n===1?'Primer':'Segundo'} semestre ${year}`,year,termType:'Semestral',active:true,source:demo});
  for(const year of [2026,2027,2028]){
-  for(let n=1;n<=3;n++)put('periods',{id:`demo-trimestre-${year}-${n}`,label:`Trimestre ${n} ${year} (prueba)`,year,semester:n,termType:'Trimestral',active:true,source:demo});
-  for(let n=1;n<=4;n++)put('periods',{id:`demo-cuatrimestre-${year}-${n}`,label:`Período ${n} ${year} (prueba)`,year,semester:n,termType:'Cuatrimestral',active:true,source:demo});
-  put('periods',{id:`demo-interciclo-${year}`,label:`Interciclo ${year} (prueba)`,year,semester:3,termType:'Interciclo',active:true,source:demo});
+  for(let n=1;n<=3;n++)put('periods',{id:`demo-trimestre-${year}-${n}`,label:`Trimestre ${n} ${year} (prueba)`,year,termType:'Trimestral',active:true,source:demo});
+  for(let n=1;n<=4;n++)put('periods',{id:`demo-cuatrimestre-${year}-${n}`,label:`Período ${n} ${year} (prueba)`,year,termType:'Cuatrimestral',active:true,source:demo});
+  put('periods',{id:`demo-interciclo-${year}`,label:`Interciclo ${year} (prueba)`,year,termType:'Interciclo',active:true,source:demo});
  }
  for(const day of DAYS)for(const hours of daysHours[day]){
   const [start,end]=hours.split('-');

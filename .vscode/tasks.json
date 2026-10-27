@@ -1,0 +1,9 @@
+{
+ "version":"2.0.0",
+ "tasks":[
+  {"label":"UMG Plan: iniciar frontend y backend","type":"npm","script":"dev","isBackground":true,"problemMatcher":[],"presentation":{"reveal":"always","panel":"dedicated"}},
+  {"label":"UMG Plan: preparar base y administrador","type":"npm","script":"setup","problemMatcher":[]},
+  {"label":"UMG Plan: compilar","type":"npm","script":"build","group":{"kind":"build","isDefault":true},"problemMatcher":[]},
+  {"label":"UMG Plan: pruebas","type":"npm","script":"test","group":"test","problemMatcher":[]}
+ ]
+}

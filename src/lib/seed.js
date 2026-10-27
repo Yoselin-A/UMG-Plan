@@ -65,7 +65,7 @@ const makeBaseSeed=()=>({
   {id:'plan-portales',code:'9989/2013',careerCode:'9989/2013',name:'Ingeniería en Sistemas de Información y Ciencias de la Computación',center:'Centro Universitario Portales',mode:'Plan Sábado',university,active:true,source:'documento-base-2025'}
  ],
  cycles:Array.from({length:10},(_,i)=>({id:`cy-${i+1}`,number:i+1,name:['Primero','Segundo','Tercero','Cuarto','Quinto','Sexto','Séptimo','Octavo','Noveno','Décimo'][i]+' ciclo',active:true})),
- periods:[2025,2026,2027].flatMap(year=>[1,2].map(semester=>({id:`period-${year}-${semester}`,label:`${semester===1?'Primer':'Segundo'} semestre ${year}`,year,semester,active:true}))),
+ periods:[2025,2026,2027].flatMap(year=>[1,2].map(semester=>({id:`period-${year}-${semester}`,label:`${semester===1?'Primer':'Segundo'} semestre ${year}`,year,active:true}))),
  rooms:[...['A-101','A-102','A-201','A-301','B-101','B-201','B-301','B-401','LAB-01','LAB-02'].map((code,i)=>({id:i===0?'room-1':i===1?'room-2':`room-${i+1}`,code,capacity:i>=8?30:40,type:i>=8?'Laboratorio':'Salón',active:true}))],
  slots,
  courses:[...demoCourses,...referenceCourses],
@@ -113,6 +113,7 @@ export function extendSeed(seed){
  for(const t of seed.teachers||[]){if(t.source==='demostracion'&&t.email?.endsWith('@ejemplo.edu.gt'))t.email=t.email.replace('@ejemplo.edu.gt','@miumg.edu.gt');}
  for(const m of seed.messages||[]){if(m.text&&!m.body){m.body=m.text;delete m.text;}}
  if(!Array.isArray(seed.customRoles))seed.customRoles=[];
+ if(!Array.isArray(seed.systemRoles))seed.systemRoles=[];
  if(!Array.isArray(seed.passwordRequests))seed.passwordRequests=[];
  return enrichSeedForDemo(seed);
 }

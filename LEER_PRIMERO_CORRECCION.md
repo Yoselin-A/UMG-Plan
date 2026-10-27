@@ -1,3 +1,5 @@
+> Documento histórico del frontend. Para el backend actual consulta [BACKEND.md](docs/BACKEND.md).
+
 # UMG Plan — Versión corregida (archivos completos)
 
 Este paquete contiene todos los archivos del frontend React + Vite, incluidos los cuatro que el proyecto UMGPlan2 no pudo importar (`Maintenance.jsx`, `AdvancedUI.jsx`, `repository.mjs`, `logoData.js`).

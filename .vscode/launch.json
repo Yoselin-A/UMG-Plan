@@ -1,0 +1,6 @@
+{
+ "version":"0.2.0",
+ "configurations":[
+  {"name":"UMG Plan: servidor con depuración","type":"node","request":"launch","program":"${workspaceFolder}/server/index.mjs","cwd":"${workspaceFolder}","console":"integratedTerminal","preLaunchTask":"UMG Plan: compilar","skipFiles":["<node_internals>/**"],"serverReadyAction":{"pattern":"UMG Plan: (https?://\\S+)","uriFormat":"%s","action":"openExternally"}}
+ ]
+}

@@ -7,7 +7,7 @@
 3. En **Control académico y pensum**, revisar `Cursos por plan de estudio`, historial de laboratorio, inscritos y disponibilidad docente. No eliminar cursos ya usados en propuestas.
 4. En **Modelo de datos**, comprobar inventario de 45 tablas conceptuales y la leyenda de relación con frontend. En **Integridad**, confirmar cero referencias huérfanas; descargar exportación JSON conceptual.
 5. En **Catálogos > Planes de estudio**, seleccionar institución, centro, carrera y modalidad existentes. Intentar una sede o carrera que no exista: el guardado debe impedir relaciones inválidas.
-6. Como `coordinador`, abrir `PL-2026-002`. Comprobar dos secciones y ocho asignaciones. Probar R1 (quinta clase del profesor), R2 (dos cursos con el mismo docente y sección) y R3 (cruce de horario); todos deben bloquearse.
+6. Como `coordinador`, abrir `PL-2026-002`. Comprobar dos secciones y ocho asignaciones. Comprobar que se rechaza un quinto curso distinto en el período y los cruces de horario. El mismo curso puede impartirse en varias secciones y el docente puede impartir distintos cursos en la misma sección si no hay cruces.
 7. En **Disponibilidad docente**, consultar bloques registrados. La revisión formal se mantiene en **Revisión docente**.
 8. Enviar el plan a revisión; como `docente1`, revisar clases, responder y conversar en chat. En **Mi disponibilidad**, agregar y editar un bloque.
 9. Como coordinador, comprobar notificaciones y que no se consolide con respuestas pendientes. Confirmar las ocho asignaciones con los ocho docentes de demostración y consolidar.
