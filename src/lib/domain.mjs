@@ -22,6 +22,12 @@ export function teacherCoursesForPeriod(db,teacherId,periodId,excludeId='') {
  const plans=new Set(db.plannings.filter(p=>p.periodId===periodId).map(p=>p.id));
  return new Set(db.assignments.filter(a=>a.id!==excludeId&&a.teacherId===teacherId&&plans.has(a.planningId)).map(a=>a.courseId).filter(Boolean));
 }
+export function slotMatchesTeacherShift(slot,shift){
+ if(!shift)return true;
+ if(shift==='Matutina')return ['Lunes','Martes','Miércoles','Jueves','Viernes'].includes(slot.day)&&slot.start>='07:00'&&slot.end<='13:00';
+ if(shift==='Vespertina')return ['Lunes','Martes','Miércoles','Jueves','Viernes'].includes(slot.day)&&slot.start>='17:00'&&slot.end<='21:00';
+ return slot.day===shift;
+}
 export function checkAssignment(db, planningId, candidate, excludeId='') {
   const reasons=[];
   const planning=db.plannings.find(p=>p.id===planningId);
@@ -35,6 +41,8 @@ export function checkAssignment(db, planningId, candidate, excludeId='') {
   if(!isActive(teacher)) reasons.push('Selecciona un docente activo.');
   if(!isActive(course)) reasons.push('Selecciona un curso activo.');
   if(!isActive(slot)) reasons.push('Selecciona un horario activo.');
+  const shift=db.users.find(u=>u.teacherId===candidate.teacherId&&u.role==='teacher')?.jornada;
+  if(slot&&shift&&!slotMatchesTeacherShift(slot,shift))reasons.push('El horario no corresponde a la jornada del docente.');
   if(!isActive(room)) reasons.push('Selecciona un salón activo.');
   if(section && course && (course.cycleId!==section.cycleId || course.planId!==planning.planId)) reasons.push('El curso no pertenece al ciclo y plan de estudio de la sección.');
   if(section && room && Number(room.capacity)<Number(section.capacity)) reasons.push(`El salón tiene capacidad ${room.capacity}, menor que el cupo ${section.capacity}.`);

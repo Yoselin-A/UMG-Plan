@@ -81,6 +81,7 @@ try{
   assert(admin.data.db.notifications.some(n=>n.title==='Solicitud de contraseña pendiente'&&n.body.includes(identity)));checks++;
   if(identity==='qa coord'){await request(null,'/password-requests',{identity,password:'Otra_clave_2026!'});await refresh(admin);assert.equal(admin.data.db.passwordRequests.filter(x=>x.userId===uid&&x.status==='pending').length,1);checks++;}
   await request(admin,`/password-requests/${pending.id}/decision`,{decision:'approved',note:'Identidad de prueba verificada'});
+  await refresh(admin);assert(admin.data.db.notifications.some(n=>n.link===`/solicitudes-contrasena?solicitud=${pending.id}`&&n.read));checks++;
  }
  await request(null,'/auth/login',{username:'qa coord',password:'Otra_clave_2026!'},401);
  await mutate(admin,add('systemRoles',{id:'teacher',name:'Docente de prueba',description:'Perfil editable',paths:['/dashboard','/ajustes']}));

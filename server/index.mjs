@@ -85,7 +85,7 @@ app.post('/api/v1/password-requests',rateLimit,async(req,res)=>{
   if(!user||state.passwordRequests.some(x=>x.userId===user.id&&x.status==='pending'))return;
   const id=randomUUID();next.passwordRequests.push({id,userId:user.id,status:'pending',createdAt:new Date().toISOString(),decidedAt:null,decidedBy:null,note:''});
   await query(tx,'INSERT app.PendingPassword(id,password_hash) VALUES(@id,@hash)',{id,hash:passwordHash});
-  for(const admin of state.users.filter(x=>x.role==='admin'&&x.active))next.notifications.push({id:randomUUID(),userId:admin.id,title:'Solicitud de contraseña pendiente',body:`${user.username} solicita una contraseña. Verifica su identidad antes de aprobar.`,link:'/solicitudes-contrasena',at:new Date().toISOString(),read:false});
+  for(const admin of state.users.filter(x=>x.role==='admin'&&x.active))next.notifications.push({id:randomUUID(),userId:admin.id,title:'Solicitud de contraseña pendiente',body:`${user.username} solicita una contraseña. Verifica su identidad antes de aprobar.`,link:`/solicitudes-contrasena?solicitud=${id}`,at:new Date().toISOString(),read:false});
   await persist(tx,state,next);
  });res.json({message:'Si los datos corresponden a una cuenta activa, el administrador revisará la solicitud. Si ya hay una pendiente, se conserva la primera contraseña propuesta.'});
 });
@@ -102,6 +102,8 @@ app.post('/api/v1/password-requests/:id/decision',async(req,res)=>{
   }
   await query(tx,'DELETE app.PendingPassword WHERE id=@id',{id:request.id});
   Object.assign(request,{status:decision,decidedAt:new Date().toISOString(),decidedBy:auth.user.id,note:String(note||'').slice(0,1000)});
+  const username=state.users.find(u=>u.id===request.userId)?.username;
+  for(const n of next.notifications)if(n.title==='Solicitud de contraseña pendiente'&&(n.link===`/solicitudes-contrasena?solicitud=${request.id}`||n.link==='/solicitudes-contrasena'&&username&&n.body===`${username} solicita una contraseña. Verifica su identidad antes de aprobar.`))n.read=true;
   next.audit.push({id:randomUUID(),userId:auth.user.id,at:new Date().toISOString(),action:`Solicitud de contraseña ${decision} para ${request.userId}`});
   next.notifications.push({id:randomUUID(),userId:request.userId,title:decision==='approved'?'Cambio de contraseña autorizado':'Cambio de contraseña denegado',body:String(note||'La solicitud fue atendida.'),link:'/ajustes',at:new Date().toISOString(),read:false});
   await persist(tx,state,next);
@@ -130,6 +132,6 @@ app.use((error,req,res,next)=>{
 const dummyPassword=await hashPassword(token());
 if(process.argv[1]===fileURLToPath(import.meta.url)){
  await migrate();const port=Number(process.env.PORT||3001);
- const server=app.listen(port,'127.0.0.1',()=>console.log(`UMG Plan: http://localhost:${port}`));
+ const host=process.env.HOST||'127.0.0.1';const server=app.listen(port,host,()=>console.log(`UMG Plan: http://localhost:${port}`));
  const stop=()=>server.close(async()=>{await pool.close();process.exit(0);});process.on('SIGINT',stop);process.on('SIGTERM',stop);
 }

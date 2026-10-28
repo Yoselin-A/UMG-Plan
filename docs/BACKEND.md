@@ -105,3 +105,7 @@ Se agregaron otros seis planes de referencia mediante `node scripts/actualizar-p
 No se crearon commits ni se subieron cambios. `ACCESO_LOCAL.txt`, `.env`, dependencias, archivos SQL físicos y respaldos están excluidos de Git. Los documentos originales del ZIP que describen un frontend local se conservan como antecedentes; esta guía y el README principal describen la versión actual.
 
 Los planes guardan la modalidad y la jornada por separado. La columna SQL `plan_estudio.jornada` conserva la jornada; la modalidad sigue relacionada con `modalidad`. La migración conserva las jornadas anteriores y utiliza «No especificada» cuando no consta la modalidad. Los reportes históricos conservan sus datos originales.
+
+## Acceso desde otros dispositivos en la misma red
+
+Para pruebas en una red privada, compila con `npm run build`, agrega a `.env` `HOST=0.0.0.0` y configura `ALLOWED_ORIGINS` con el origen exacto de la computadora anfitriona, por ejemplo `http://192.168.1.20:3001`, además de `http://localhost:3001`. Inicia `npm start` y abre esa dirección desde los otros dispositivos de la misma red. El firewall de Windows debe permitir el puerto 3001 en la red privada. El backend y SQL Server siguen ejecutándose en la computadora anfitriona. No se configura acceso seguro por Internet mediante estos pasos. Al editar simultáneamente, si aparece un aviso de cambios concurrentes, revisa los datos actualizados e intenta de nuevo.

@@ -10,7 +10,7 @@ export const fieldLists={
  institutions:'id code name abbreviation address active source',centers:'id code name institutionId location active source',
  careers:'id code name centerId active source',modalities:'id code name description active source',authorityTypes:'id code name description active source',
  authorities:'id code name typeId centerId active source',systemRoles:'id name description paths',customRoles:'id name description baseRole paths active',
- users:'id name username email role teacherId active',teachers:'id code name email phone specialty emailExample active source',
+ users:'id name username email role teacherId jornada active',teachers:'id code name email phone specialty emailExample active source',
  cycles:'id code number name active source',periods:'id code label year termType startDate endDate active source',
  rooms:'id code name capacity type active source',slots:'id day start end active source',
  studyPlans:'id code name careerCode center mode jornada university institutionId centerId careerId modalityId year active source',
@@ -34,7 +34,7 @@ export function sanitized(state,user){
  db.notifications=db.notifications.filter(x=>x.userId===user.id);
  if(role!=='admin'){
   db.audit=[];
-  db.users=db.users.filter(x=>x.id===user.id||getBaseRole(db,x.role)==='coordinator').map(({email,...u})=>({...u,email:u.id===user.id?email:''}));
+  db.users=db.users.filter(x=>x.id===user.id||getBaseRole(db,x.role)==='coordinator'||role==='coordinator'&&getBaseRole(db,x.role)==='teacher').map(({email,...u})=>({...u,email:u.id===user.id?email:''}));
  }
  if(role==='teacher'){
   db.assignments=db.assignments.filter(x=>x.teacherId===user.teacherId);
@@ -116,6 +116,7 @@ export function applyChanges(before,changes,user){
   if(catalogKeys.includes(key)&&old)editCatalogSafe(next,key,old,row);
   if(key==='users'){
    assert(typeof row.name==='string'&&row.name.trim().length>1,'Nombre requerido.');
+   assert(!row.jornada||['Matutina','Vespertina','Sábado','Domingo'].includes(row.jornada),'Jornada inválida.');
    assert(/^(?=.{3,40}$)[a-z0-9._-]+(?: [a-z0-9._-]+)*$/i.test(row.username||'')&&((old&&row.email===old.email)||/^[a-z0-9._%+-]+@miumg\.edu\.gt$/i.test(row.email||'')),'Usuario o correo institucional inválido.');
    assert(getBaseRole(next,row.role),'Rol inexistente.');
    assert(!next.users.some(x=>x.id!==row.id&&(x.username.toLowerCase()===row.username.toLowerCase()||x.email.toLowerCase()===row.email.toLowerCase())),'Usuario o correo duplicado.');
