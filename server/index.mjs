@@ -17,7 +17,7 @@ app.use((req,res,next)=>{
  next();
 });
 app.use(express.json({limit:'3mb'}));
-const allowedOrigins=new Set((process.env.ALLOWED_ORIGINS||'http://localhost:5173,http://127.0.0.1:5173,http://localhost:3001,http://127.0.0.1:3001').split(','));
+const allowedOrigins=new Set((process.env.ALLOWED_ORIGINS||'http://localhost:5173,http://127.0.0.1:5173,http://localhost:3001,http://127.0.0.1:3001,http://10.0.2.2:5173').split(',').map(origin=>origin.trim()).filter(Boolean));
 app.use('/api',(req,res,next)=>{
  if(!['GET','HEAD','OPTIONS'].includes(req.method))assert(!req.get('Origin')||allowedOrigins.has(req.get('Origin')),'Origen no autorizado.',403);
  next();

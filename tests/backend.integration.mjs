@@ -40,6 +40,8 @@ async function mutate(client,work,action='Prueba de integración',status=200){
 const add=(key,row)=>state=>state[key].push(row);
 try{
  await request(null,'/health');await request(null,'/session',undefined,401);
+ for(const origin of ['http://localhost:3001','http://127.0.0.1:3001','http://10.0.2.2:5173'])await request(null,'/auth/login',{username:'nadie',password:'incorrecta'},401,{Origin:origin});
+ await request(null,'/auth/login',{username:'nadie',password:'incorrecta'},403,{Origin:'https://sitio-no-autorizado.invalid'});
  await request(null,'/auth/login',{username:'qa_admin',password:'incorrecta'},401);
  const admin={};await request(admin,'/auth/login',{username:'qa_admin',password});
  const rawBefore=await query(pool,'SELECT id_profesor,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido FROM dbo.profesor ORDER BY id_profesor');
